@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AutoDeathRest.Enabled>Activează odihna morții automată</AutoDeathRest.Enabled>
+  <AutoDeathRest.EnabledTip>Dacă este activat, pionii cu gena Odihna Morții intră automat în odihna morții când necesarul rămas scade sub prag.</AutoDeathRest.EnabledTip>
+  <AutoDeathRest.ThresholdLabel>Odihna morții automată când necesarul rămas scade sub: {0} %</AutoDeathRest.ThresholdLabel>
+  <AutoDeathRest.TriggerOnExhaustion>Declanșează întotdeauna la epuizarea odihnei morții</AutoDeathRest.TriggerOnExhaustion>
+  <AutoDeathRest.TriggerOnExhaustionTip>Dacă un pion dezvoltă hediff-ul de epuizare a odihnei morții, forțează odihna morții imediat, indiferent de prag.</AutoDeathRest.TriggerOnExhaustionTip>
+  <AutoDeathRest.RequireOwnedBed>Folosește doar patul atribuit</AutoDeathRest.RequireOwnedBed>
+  <AutoDeathRest.RequireOwnedBedTip>Dacă este bifat, pionii vor face odihna morții doar în patul atribuit lor. Altfel, se folosește cel mai apropiat pat de odihna morții disponibil.</AutoDeathRest.RequireOwnedBedTip>
+  <AutoDeathRest.ShowNotification>Arată scrisoare la pornirea odihnei morții automate</AutoDeathRest.ShowNotification>
+  <AutoDeathRest.ShowNotificationTip>Publică o scrisoare în colțul din dreapta sus ori de câte ori un pion intră automat în odihna morții.</AutoDeathRest.ShowNotificationTip>
+  <AutoDeathRest.LetterLabel>Odihna morții automată: {0}</AutoDeathRest.LetterLabel>
+  <AutoDeathRest.LetterText>{0} a început automat odihna morții. Necesar rămas: {1} %.</AutoDeathRest.LetterText>
+  <AutoDeathRest.LetterTextExhaustion>{0} a început automat odihna morții din cauza epuizării odihnei morții.</AutoDeathRest.LetterTextExhaustion>
+</LanguageData>

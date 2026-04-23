@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AutoDeathRest.Enabled>Ativar repouso mortal automático</AutoDeathRest.Enabled>
+  <AutoDeathRest.EnabledTip>Se ativado, os colonos com o gene Repouso Mortal entram automaticamente em repouso mortal quando a necessidade restante cai abaixo do limiar.</AutoDeathRest.EnabledTip>
+  <AutoDeathRest.ThresholdLabel>Repouso mortal automático quando a necessidade restante cai abaixo de: {0} %</AutoDeathRest.ThresholdLabel>
+  <AutoDeathRest.TriggerOnExhaustion>Acionar sempre em caso de exaustão de repouso mortal</AutoDeathRest.TriggerOnExhaustion>
+  <AutoDeathRest.TriggerOnExhaustionTip>Se um colono desenvolve a hediff de exaustão de repouso mortal, força o repouso mortal imediatamente, independentemente do limiar.</AutoDeathRest.TriggerOnExhaustionTip>
+  <AutoDeathRest.RequireOwnedBed>Usar apenas a cama atribuída</AutoDeathRest.RequireOwnedBed>
+  <AutoDeathRest.RequireOwnedBedTip>Se marcado, os colonos só farão repouso mortal na cama atribuída a eles. Caso contrário, será usada a cama de repouso mortal mais próxima disponível.</AutoDeathRest.RequireOwnedBedTip>
+  <AutoDeathRest.ShowNotification>Mostrar carta ao iniciar repouso mortal automático</AutoDeathRest.ShowNotification>
+  <AutoDeathRest.ShowNotificationTip>Publica uma carta no canto superior direito sempre que um colono entra automaticamente em repouso mortal.</AutoDeathRest.ShowNotificationTip>
+  <AutoDeathRest.LetterLabel>Repouso mortal automático: {0}</AutoDeathRest.LetterLabel>
+  <AutoDeathRest.LetterText>{0} iniciou o repouso mortal automaticamente. Necessidade restante: {1} %.</AutoDeathRest.LetterText>
+  <AutoDeathRest.LetterTextExhaustion>{0} iniciou o repouso mortal automaticamente devido à exaustão de repouso mortal.</AutoDeathRest.LetterTextExhaustion>
+</LanguageData>

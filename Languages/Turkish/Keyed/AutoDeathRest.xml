@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AutoDeathRest.Enabled>Otomatik ölüm istirahatini etkinleştir</AutoDeathRest.Enabled>
+  <AutoDeathRest.EnabledTip>Etkinleştirildiğinde, Ölüm İstirahati genine sahip pawn'lar, kalan ihtiyaçları eşiğin altına düştüğünde otomatik olarak ölüm istirahatine girer.</AutoDeathRest.EnabledTip>
+  <AutoDeathRest.ThresholdLabel>Kalan ihtiyaç şu değerin altına düştüğünde otomatik ölüm istirahati: %{0}</AutoDeathRest.ThresholdLabel>
+  <AutoDeathRest.TriggerOnExhaustion>Ölüm istirahati tükenmesinde her zaman tetikle</AutoDeathRest.TriggerOnExhaustion>
+  <AutoDeathRest.TriggerOnExhaustionTip>Bir pawn, ölüm istirahati tükenmesi hediff'ini geliştirirse, eşikten bağımsız olarak ölüm istirahatini hemen zorla.</AutoDeathRest.TriggerOnExhaustionTip>
+  <AutoDeathRest.RequireOwnedBed>Yalnızca atanan yatağı kullan</AutoDeathRest.RequireOwnedBed>
+  <AutoDeathRest.RequireOwnedBedTip>İşaretlenirse, pawn'lar yalnızca kendilerine atanan yatakta ölüm istirahati yapar. Aksi takdirde en yakın kullanılabilir ölüm istirahati yatağı kullanılır.</AutoDeathRest.RequireOwnedBedTip>
+  <AutoDeathRest.ShowNotification>Otomatik ölüm istirahati başlarken mektup göster</AutoDeathRest.ShowNotification>
+  <AutoDeathRest.ShowNotificationTip>Bir pawn otomatik olarak ölüm istirahatine girdiğinde sağ üst köşede bir mektup yayınlar.</AutoDeathRest.ShowNotificationTip>
+  <AutoDeathRest.LetterLabel>Otomatik ölüm istirahati: {0}</AutoDeathRest.LetterLabel>
+  <AutoDeathRest.LetterText>{0} otomatik olarak ölüm istirahatine başladı. Kalan ihtiyaç: %{1}.</AutoDeathRest.LetterText>
+  <AutoDeathRest.LetterTextExhaustion>{0}, ölüm istirahati tükenmesi nedeniyle otomatik olarak ölüm istirahatine başladı.</AutoDeathRest.LetterTextExhaustion>
+</LanguageData>

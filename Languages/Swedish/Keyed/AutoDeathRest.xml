@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AutoDeathRest.Enabled>Aktivera automatisk dödsvila</AutoDeathRest.Enabled>
+  <AutoDeathRest.EnabledTip>När aktiverat går pawns med dödsvila-genen automatiskt in i dödsvila när deras återstående behov sjunker under tröskeln.</AutoDeathRest.EnabledTip>
+  <AutoDeathRest.ThresholdLabel>Automatisk dödsvila när återstående behov sjunker under: {0} %</AutoDeathRest.ThresholdLabel>
+  <AutoDeathRest.TriggerOnExhaustion>Utlös alltid vid dödsvila-utmattning</AutoDeathRest.TriggerOnExhaustion>
+  <AutoDeathRest.TriggerOnExhaustionTip>Om en pawn utvecklar dödsvila-utmattningens hediff, tvinga dödsvila omedelbart, oavsett tröskel.</AutoDeathRest.TriggerOnExhaustionTip>
+  <AutoDeathRest.RequireOwnedBed>Använd endast tilldelad säng</AutoDeathRest.RequireOwnedBed>
+  <AutoDeathRest.RequireOwnedBedTip>Om markerat kommer pawns endast att dödsvila i sin tilldelade säng. Annars används den närmaste tillgängliga dödsvila-sängen.</AutoDeathRest.RequireOwnedBedTip>
+  <AutoDeathRest.ShowNotification>Visa brev när automatisk dödsvila startar</AutoDeathRest.ShowNotification>
+  <AutoDeathRest.ShowNotificationTip>Visar ett brev i övre högra hörnet varje gång en pawn automatiskt går in i dödsvila.</AutoDeathRest.ShowNotificationTip>
+  <AutoDeathRest.LetterLabel>Automatisk dödsvila: {0}</AutoDeathRest.LetterLabel>
+  <AutoDeathRest.LetterText>{0} har påbörjat dödsvila automatiskt. Återstående behov: {1} %.</AutoDeathRest.LetterText>
+  <AutoDeathRest.LetterTextExhaustion>{0} har påbörjat dödsvila automatiskt på grund av dödsvila-utmattning.</AutoDeathRest.LetterTextExhaustion>
+</LanguageData>

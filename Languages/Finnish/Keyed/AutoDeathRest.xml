@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AutoDeathRest.Enabled>Ota automaattinen kuolonlepo käyttöön</AutoDeathRest.Enabled>
+  <AutoDeathRest.EnabledTip>Kun käytössä, kuolonlevon geeniä kantavat pawnit siirtyvät automaattisesti kuolonlepoon, kun niiden jäljellä oleva tarve laskee kynnyksen alle.</AutoDeathRest.EnabledTip>
+  <AutoDeathRest.ThresholdLabel>Automaattinen kuolonlepo, kun jäljellä oleva tarve alittaa: {0} %</AutoDeathRest.ThresholdLabel>
+  <AutoDeathRest.TriggerOnExhaustion>Laukaise aina kuolonlevon uupumuksesta</AutoDeathRest.TriggerOnExhaustion>
+  <AutoDeathRest.TriggerOnExhaustionTip>Jos pawnille kehittyy kuolonlevon uupumuksen hediff, pakota kuolonlepo välittömästi kynnyksestä riippumatta.</AutoDeathRest.TriggerOnExhaustionTip>
+  <AutoDeathRest.RequireOwnedBed>Käytä vain määritettyä vuodetta</AutoDeathRest.RequireOwnedBed>
+  <AutoDeathRest.RequireOwnedBedTip>Jos valittu, pawnit tekevät kuolonlevon vain niille määrätyssä vuoteessa. Muussa tapauksessa käytetään lähintä saatavilla olevaa kuolonlepovuodetta.</AutoDeathRest.RequireOwnedBedTip>
+  <AutoDeathRest.ShowNotification>Näytä kirje automaattisen kuolonlevon alkaessa</AutoDeathRest.ShowNotification>
+  <AutoDeathRest.ShowNotificationTip>Julkaisee kirjeen oikeaan yläkulmaan aina, kun pawn siirtyy automaattisesti kuolonlepoon.</AutoDeathRest.ShowNotificationTip>
+  <AutoDeathRest.LetterLabel>Automaattinen kuolonlepo: {0}</AutoDeathRest.LetterLabel>
+  <AutoDeathRest.LetterText>{0} aloitti automaattisesti kuolonlevon. Jäljellä oleva tarve: {1} %.</AutoDeathRest.LetterText>
+  <AutoDeathRest.LetterTextExhaustion>{0} aloitti automaattisesti kuolonlevon kuolonlevon uupumuksen vuoksi.</AutoDeathRest.LetterTextExhaustion>
+</LanguageData>

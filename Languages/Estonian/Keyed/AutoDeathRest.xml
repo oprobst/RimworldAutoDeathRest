@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AutoDeathRest.Enabled>Luba automaatne surmapuhkus</AutoDeathRest.Enabled>
+  <AutoDeathRest.EnabledTip>Kui lubatud, lähevad Surmapuhkuse geeniga pawnid automaatselt surmapuhkusesse, kui nende ülejäänud vajadus langeb allapoole läve.</AutoDeathRest.EnabledTip>
+  <AutoDeathRest.ThresholdLabel>Automaatne surmapuhkus, kui ülejäänud vajadus langeb alla: {0} %</AutoDeathRest.ThresholdLabel>
+  <AutoDeathRest.TriggerOnExhaustion>Käivita alati surmapuhkuse kurnatuse korral</AutoDeathRest.TriggerOnExhaustion>
+  <AutoDeathRest.TriggerOnExhaustionTip>Kui pawnil tekib surmapuhkuse kurnatuse hediff, sunni surmapuhkus viivitamatult, läveist sõltumata.</AutoDeathRest.TriggerOnExhaustionTip>
+  <AutoDeathRest.RequireOwnedBed>Kasuta ainult määratud voodit</AutoDeathRest.RequireOwnedBed>
+  <AutoDeathRest.RequireOwnedBedTip>Kui märgitud, teevad pawnid surmapuhkust ainult neile määratud voodis. Vastasel juhul kasutatakse lähimat saadaolevat surmapuhkuse voodit.</AutoDeathRest.RequireOwnedBedTip>
+  <AutoDeathRest.ShowNotification>Näita kirja automaatse surmapuhkuse alguses</AutoDeathRest.ShowNotification>
+  <AutoDeathRest.ShowNotificationTip>Kuvab kirja paremas ülanurgas iga kord, kui pawn läheb automaatselt surmapuhkusesse.</AutoDeathRest.ShowNotificationTip>
+  <AutoDeathRest.LetterLabel>Automaatne surmapuhkus: {0}</AutoDeathRest.LetterLabel>
+  <AutoDeathRest.LetterText>{0} alustas automaatselt surmapuhkust. Ülejäänud vajadus: {1} %.</AutoDeathRest.LetterText>
+  <AutoDeathRest.LetterTextExhaustion>{0} alustas automaatselt surmapuhkust surmapuhkuse kurnatuse tõttu.</AutoDeathRest.LetterTextExhaustion>
+</LanguageData>

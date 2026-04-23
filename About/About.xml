@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Auto-Deathrest</name>
+  <author>Oliver Probst</author>
+  <packageId>oprobst.autodeathrest</packageId>
+  <modVersion>1.0</modVersion>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>Ludeon.RimWorld</li>
+    <li>Ludeon.RimWorld.Royalty</li>
+    <li>Ludeon.RimWorld.Ideology</li>
+    <li>Ludeon.RimWorld.Biotech</li>
+    <li>Ludeon.RimWorld.Anomaly</li>
+    <li>Ludeon.RimWorld.Odyssey</li>
+  </loadAfter>
+  <description>Sanguophages (and other pawns carrying the Deathrest gene) automatically enter deathrest once their remaining need drops below a configurable threshold — analogous to vanilla hemogen auto-consume.
+
+Fully configurable through the mod settings:
+- Trigger threshold in percent (default: 25%)
+- Always trigger on deathrest exhaustion hediff (default: on)
+- Only use assigned bed / deathrest casket (default: off)
+- Show a letter in the top-right when auto-deathrest starts (default: on)
+
+Assigned deathrest caskets take priority over normal beds. Falls back to any suitable humanlike bed that RimWorld's RestUtility considers valid.
+
+Requires the Biotech DLC.
+
+Replacement for "Slurmpy's Auto-Deathrest Mod" (supported only up to 1.4). Reimplemented from scratch for RimWorld 1.6.
+
+---
+
+Source &amp; issues: https://github.com/oprobst/RimworldAutoDeathRest
+Feel free to fork, patch, extend — pull requests welcome.</description>
+</ModMetaData>

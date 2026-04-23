@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AutoDeathRest.Enabled>Włącz automatyczny martwy odpoczynek</AutoDeathRest.Enabled>
+  <AutoDeathRest.EnabledTip>Gdy włączone, pionki z genem martwego odpoczynku automatycznie przechodzą w martwy odpoczynek, gdy ich pozostała potrzeba spadnie poniżej progu.</AutoDeathRest.EnabledTip>
+  <AutoDeathRest.ThresholdLabel>Automatyczny martwy odpoczynek, gdy pozostała potrzeba spadnie poniżej: {0} %</AutoDeathRest.ThresholdLabel>
+  <AutoDeathRest.TriggerOnExhaustion>Zawsze wyzwalaj przy wyczerpaniu martwego odpoczynku</AutoDeathRest.TriggerOnExhaustion>
+  <AutoDeathRest.TriggerOnExhaustionTip>Jeśli pionek rozwinie dolegliwość wyczerpania martwego odpoczynku, wymuś martwy odpoczynek natychmiast, niezależnie od progu.</AutoDeathRest.TriggerOnExhaustionTip>
+  <AutoDeathRest.RequireOwnedBed>Używaj tylko przypisanego łóżka</AutoDeathRest.RequireOwnedBed>
+  <AutoDeathRest.RequireOwnedBedTip>Jeśli zaznaczone, pionki będą odbywać martwy odpoczynek wyłącznie w łóżku im przypisanym. W przeciwnym razie użyte zostanie najbliższe dostępne łóżko martwego odpoczynku.</AutoDeathRest.RequireOwnedBedTip>
+  <AutoDeathRest.ShowNotification>Pokazuj list przy rozpoczęciu automatycznego martwego odpoczynku</AutoDeathRest.ShowNotification>
+  <AutoDeathRest.ShowNotificationTip>Wyświetla list w prawym górnym rogu za każdym razem, gdy pionek automatycznie rozpoczyna martwy odpoczynek.</AutoDeathRest.ShowNotificationTip>
+  <AutoDeathRest.LetterLabel>Automatyczny martwy odpoczynek: {0}</AutoDeathRest.LetterLabel>
+  <AutoDeathRest.LetterText>{0} automatycznie rozpoczął/-ęła martwy odpoczynek. Pozostała potrzeba: {1} %.</AutoDeathRest.LetterText>
+  <AutoDeathRest.LetterTextExhaustion>{0} automatycznie rozpoczął/-ęła martwy odpoczynek z powodu wyczerpania martwego odpoczynku.</AutoDeathRest.LetterTextExhaustion>
+</LanguageData>

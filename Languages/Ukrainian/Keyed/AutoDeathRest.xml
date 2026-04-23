@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AutoDeathRest.Enabled>Увімкнути автоматичний смертний спочинок</AutoDeathRest.Enabled>
+  <AutoDeathRest.EnabledTip>Якщо увімкнено, пішаки з геном Смертного спочинку автоматично переходять у смертний спочинок, коли їхня залишкова потреба падає нижче порогу.</AutoDeathRest.EnabledTip>
+  <AutoDeathRest.ThresholdLabel>Автоматичний смертний спочинок, коли залишкова потреба нижче: {0} %</AutoDeathRest.ThresholdLabel>
+  <AutoDeathRest.TriggerOnExhaustion>Завжди спрацьовувати при виснаженні смертного спочинку</AutoDeathRest.TriggerOnExhaustion>
+  <AutoDeathRest.TriggerOnExhaustionTip>Якщо у пішака з'являється хедіф виснаження смертного спочинку, примусово запустити смертний спочинок негайно, незалежно від порогу.</AutoDeathRest.TriggerOnExhaustionTip>
+  <AutoDeathRest.RequireOwnedBed>Використовувати лише призначене ліжко</AutoDeathRest.RequireOwnedBed>
+  <AutoDeathRest.RequireOwnedBedTip>Якщо позначено, пішаки використовуватимуть лише призначене їм ліжко. Інакше буде використано найближче доступне ліжко смертного спочинку.</AutoDeathRest.RequireOwnedBedTip>
+  <AutoDeathRest.ShowNotification>Показувати лист при запуску автоматичного смертного спочинку</AutoDeathRest.ShowNotification>
+  <AutoDeathRest.ShowNotificationTip>Публікує лист у правому верхньому куті щоразу, коли пішак автоматично переходить у смертний спочинок.</AutoDeathRest.ShowNotificationTip>
+  <AutoDeathRest.LetterLabel>Автоматичний смертний спочинок: {0}</AutoDeathRest.LetterLabel>
+  <AutoDeathRest.LetterText>{0} автоматично розпочав(ла) смертний спочинок. Залишкова потреба: {1} %.</AutoDeathRest.LetterText>
+  <AutoDeathRest.LetterTextExhaustion>{0} автоматично розпочав(ла) смертний спочинок через виснаження смертного спочинку.</AutoDeathRest.LetterTextExhaustion>
+</LanguageData>

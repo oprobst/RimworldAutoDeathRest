@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AutoDeathRest.Enabled>Enable auto-deathrest</AutoDeathRest.Enabled>
+  <AutoDeathRest.EnabledTip>When enabled, pawns with the Deathrest gene automatically enter deathrest when their remaining cycle drops below the threshold.</AutoDeathRest.EnabledTip>
+  <AutoDeathRest.ThresholdLabel>Auto-deathrest when remaining need falls below: {0}%</AutoDeathRest.ThresholdLabel>
+  <AutoDeathRest.TriggerOnExhaustion>Always trigger on deathrest exhaustion</AutoDeathRest.TriggerOnExhaustion>
+  <AutoDeathRest.TriggerOnExhaustionTip>If a pawn develops the deathrest exhaustion hediff, force deathrest immediately regardless of the threshold.</AutoDeathRest.TriggerOnExhaustionTip>
+  <AutoDeathRest.RequireOwnedBed>Only use assigned bed</AutoDeathRest.RequireOwnedBed>
+  <AutoDeathRest.RequireOwnedBedTip>If checked, pawns will only auto-deathrest in a bed assigned to them. Otherwise the nearest available deathrest-capable bed is used.</AutoDeathRest.RequireOwnedBedTip>
+  <AutoDeathRest.ShowNotification>Show letter when auto-deathrest starts</AutoDeathRest.ShowNotification>
+  <AutoDeathRest.ShowNotificationTip>Post a letter in the top-right whenever auto-deathrest is triggered for a pawn.</AutoDeathRest.ShowNotificationTip>
+  <AutoDeathRest.LetterLabel>Auto-deathrest: {0}</AutoDeathRest.LetterLabel>
+  <AutoDeathRest.LetterText>{0} has started deathresting automatically. Remaining deathrest need: {1}%.</AutoDeathRest.LetterText>
+  <AutoDeathRest.LetterTextExhaustion>{0} has started deathresting automatically due to deathrest exhaustion.</AutoDeathRest.LetterTextExhaustion>
+</LanguageData>

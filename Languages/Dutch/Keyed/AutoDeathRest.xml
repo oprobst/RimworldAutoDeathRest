@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AutoDeathRest.Enabled>Automatische doodsrust inschakelen</AutoDeathRest.Enabled>
+  <AutoDeathRest.EnabledTip>Indien ingeschakeld, gaan pionnen met het Doodsrust-gen automatisch in doodsrust zodra hun resterende behoefte onder de drempel zakt.</AutoDeathRest.EnabledTip>
+  <AutoDeathRest.ThresholdLabel>Automatische doodsrust wanneer de resterende behoefte onder: {0} % zakt</AutoDeathRest.ThresholdLabel>
+  <AutoDeathRest.TriggerOnExhaustion>Altijd activeren bij uitputting van doodsrust</AutoDeathRest.TriggerOnExhaustion>
+  <AutoDeathRest.TriggerOnExhaustionTip>Als een pion de hediff uitputting van doodsrust ontwikkelt, forceer doodsrust onmiddellijk, ongeacht de drempel.</AutoDeathRest.TriggerOnExhaustionTip>
+  <AutoDeathRest.RequireOwnedBed>Alleen toegewezen bed gebruiken</AutoDeathRest.RequireOwnedBed>
+  <AutoDeathRest.RequireOwnedBedTip>Indien aangevinkt, gebruiken pionnen uitsluitend hun toegewezen bed. Anders wordt het dichtstbijzijnde beschikbare doodsrust-bed gebruikt.</AutoDeathRest.RequireOwnedBedTip>
+  <AutoDeathRest.ShowNotification>Brief tonen bij start van automatische doodsrust</AutoDeathRest.ShowNotification>
+  <AutoDeathRest.ShowNotificationTip>Plaatst een brief rechtsboven telkens wanneer een pion automatisch in doodsrust gaat.</AutoDeathRest.ShowNotificationTip>
+  <AutoDeathRest.LetterLabel>Automatische doodsrust: {0}</AutoDeathRest.LetterLabel>
+  <AutoDeathRest.LetterText>{0} is automatisch met doodsrust begonnen. Resterende behoefte: {1} %.</AutoDeathRest.LetterText>
+  <AutoDeathRest.LetterTextExhaustion>{0} is automatisch met doodsrust begonnen vanwege uitputting van doodsrust.</AutoDeathRest.LetterTextExhaustion>
+</LanguageData>

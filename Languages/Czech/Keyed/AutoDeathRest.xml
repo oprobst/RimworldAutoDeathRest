@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AutoDeathRest.Enabled>Zapnout automatický smrtelný odpočinek</AutoDeathRest.Enabled>
+  <AutoDeathRest.EnabledTip>Pokud je zapnuto, pěšáci s genem smrtelného odpočinku automaticky zahájí smrtelný odpočinek, jakmile jejich zbývající potřeba klesne pod práh.</AutoDeathRest.EnabledTip>
+  <AutoDeathRest.ThresholdLabel>Automatický smrtelný odpočinek při zbývající potřebě pod: {0} %</AutoDeathRest.ThresholdLabel>
+  <AutoDeathRest.TriggerOnExhaustion>Vždy spustit při vyčerpání smrtelného odpočinku</AutoDeathRest.TriggerOnExhaustion>
+  <AutoDeathRest.TriggerOnExhaustionTip>Pokud pěšák získá hediff vyčerpání smrtelného odpočinku, vynutit smrtelný odpočinek okamžitě, bez ohledu na práh.</AutoDeathRest.TriggerOnExhaustionTip>
+  <AutoDeathRest.RequireOwnedBed>Používat pouze přiřazenou postel</AutoDeathRest.RequireOwnedBed>
+  <AutoDeathRest.RequireOwnedBedTip>Pokud zaškrtnuto, pěšáci budou smrtelně odpočívat pouze ve své přiřazené posteli. Jinak se použije nejbližší dostupná postel smrtelného odpočinku.</AutoDeathRest.RequireOwnedBedTip>
+  <AutoDeathRest.ShowNotification>Zobrazit dopis při zahájení automatického smrtelného odpočinku</AutoDeathRest.ShowNotification>
+  <AutoDeathRest.ShowNotificationTip>Zobrazí dopis v pravém horním rohu pokaždé, když pěšák automaticky zahájí smrtelný odpočinek.</AutoDeathRest.ShowNotificationTip>
+  <AutoDeathRest.LetterLabel>Automatický smrtelný odpočinek: {0}</AutoDeathRest.LetterLabel>
+  <AutoDeathRest.LetterText>{0} automaticky zahájil(a) smrtelný odpočinek. Zbývající potřeba: {1} %.</AutoDeathRest.LetterText>
+  <AutoDeathRest.LetterTextExhaustion>{0} automaticky zahájil(a) smrtelný odpočinek kvůli vyčerpání smrtelného odpočinku.</AutoDeathRest.LetterTextExhaustion>
+</LanguageData>

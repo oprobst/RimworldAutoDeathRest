@@ -1,0 +1,24 @@
+# Compiled output
+Source/**/bin/
+Source/**/obj/
+Assemblies/*.pdb
+Assemblies/0Harmony.dll
+
+# Visual Studio / Rider
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Claude Code session state
+.claude/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# NuGet
+*.nupkg
+packages/

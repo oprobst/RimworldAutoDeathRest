@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AutoDeathRest.Enabled>Attiva riposo mortale automatico</AutoDeathRest.Enabled>
+  <AutoDeathRest.EnabledTip>Se attivato, i pawn con il gene Riposo Mortale entrano automaticamente in riposo mortale quando il loro bisogno residuo scende sotto la soglia.</AutoDeathRest.EnabledTip>
+  <AutoDeathRest.ThresholdLabel>Riposo mortale automatico quando il bisogno residuo scende sotto: {0} %</AutoDeathRest.ThresholdLabel>
+  <AutoDeathRest.TriggerOnExhaustion>Attiva sempre in caso di esaurimento da riposo mortale</AutoDeathRest.TriggerOnExhaustion>
+  <AutoDeathRest.TriggerOnExhaustionTip>Se un pawn sviluppa la malattia di esaurimento da riposo mortale, forza il riposo mortale immediatamente, indipendentemente dalla soglia.</AutoDeathRest.TriggerOnExhaustionTip>
+  <AutoDeathRest.RequireOwnedBed>Usa solo il letto assegnato</AutoDeathRest.RequireOwnedBed>
+  <AutoDeathRest.RequireOwnedBedTip>Se selezionato, i pawn useranno solo il letto loro assegnato. Altrimenti, verrà utilizzato il letto da riposo mortale disponibile più vicino.</AutoDeathRest.RequireOwnedBedTip>
+  <AutoDeathRest.ShowNotification>Mostra lettera all'avvio del riposo mortale automatico</AutoDeathRest.ShowNotification>
+  <AutoDeathRest.ShowNotificationTip>Pubblica una lettera in alto a destra ogni volta che un pawn inizia automaticamente il riposo mortale.</AutoDeathRest.ShowNotificationTip>
+  <AutoDeathRest.LetterLabel>Riposo mortale automatico: {0}</AutoDeathRest.LetterLabel>
+  <AutoDeathRest.LetterText>{0} ha iniziato il riposo mortale automaticamente. Bisogno residuo: {1} %.</AutoDeathRest.LetterText>
+  <AutoDeathRest.LetterTextExhaustion>{0} ha iniziato il riposo mortale automaticamente a causa dell'esaurimento da riposo mortale.</AutoDeathRest.LetterTextExhaustion>
+</LanguageData>

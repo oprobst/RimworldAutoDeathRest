@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AutoDeathRest.Enabled>자동 죽음의 휴식 활성화</AutoDeathRest.Enabled>
+  <AutoDeathRest.EnabledTip>활성화하면 죽음의 휴식 유전자를 가진 폰들이 남은 욕구가 임계값 아래로 떨어지면 자동으로 죽음의 휴식에 들어갑니다.</AutoDeathRest.EnabledTip>
+  <AutoDeathRest.ThresholdLabel>남은 욕구가 다음 값 아래로 떨어지면 자동 죽음의 휴식: {0}%</AutoDeathRest.ThresholdLabel>
+  <AutoDeathRest.TriggerOnExhaustion>죽음의 휴식 탈진 시 항상 발동</AutoDeathRest.TriggerOnExhaustion>
+  <AutoDeathRest.TriggerOnExhaustionTip>폰에게 죽음의 휴식 탈진 헤디프가 발생하면 임계값과 관계없이 즉시 죽음의 휴식을 강제합니다.</AutoDeathRest.TriggerOnExhaustionTip>
+  <AutoDeathRest.RequireOwnedBed>지정된 침대만 사용</AutoDeathRest.RequireOwnedBed>
+  <AutoDeathRest.RequireOwnedBedTip>체크하면 폰은 자신에게 지정된 침대에서만 죽음의 휴식을 취합니다. 그렇지 않으면 가장 가까운 사용 가능한 죽음의 휴식 침대를 사용합니다.</AutoDeathRest.RequireOwnedBedTip>
+  <AutoDeathRest.ShowNotification>자동 죽음의 휴식 시작 시 편지 표시</AutoDeathRest.ShowNotification>
+  <AutoDeathRest.ShowNotificationTip>폰이 자동으로 죽음의 휴식에 들어갈 때마다 우측 상단에 편지를 게시합니다.</AutoDeathRest.ShowNotificationTip>
+  <AutoDeathRest.LetterLabel>자동 죽음의 휴식: {0}</AutoDeathRest.LetterLabel>
+  <AutoDeathRest.LetterText>{0}이(가) 자동으로 죽음의 휴식을 시작했습니다. 남은 욕구: {1}%.</AutoDeathRest.LetterText>
+  <AutoDeathRest.LetterTextExhaustion>{0}이(가) 죽음의 휴식 탈진으로 인해 자동으로 죽음의 휴식을 시작했습니다.</AutoDeathRest.LetterTextExhaustion>
+</LanguageData>

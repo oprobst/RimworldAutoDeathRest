@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AutoDeathRest.Enabled>Включить автоматический смертный покой</AutoDeathRest.Enabled>
+  <AutoDeathRest.EnabledTip>Если включено, пешки с геном смертного покоя автоматически уходят в смертный покой, когда оставшаяся потребность падает ниже порога.</AutoDeathRest.EnabledTip>
+  <AutoDeathRest.ThresholdLabel>Автоматический смертный покой при оставшейся потребности ниже: {0} %</AutoDeathRest.ThresholdLabel>
+  <AutoDeathRest.TriggerOnExhaustion>Всегда срабатывать при истощении смертного покоя</AutoDeathRest.TriggerOnExhaustion>
+  <AutoDeathRest.TriggerOnExhaustionTip>Если у пешки появляется хедифф «истощение смертного покоя», принудительно запустить смертный покой, независимо от порога.</AutoDeathRest.TriggerOnExhaustionTip>
+  <AutoDeathRest.RequireOwnedBed>Использовать только назначенную кровать</AutoDeathRest.RequireOwnedBed>
+  <AutoDeathRest.RequireOwnedBedTip>Если отмечено, пешки будут использовать только свою назначенную кровать. Иначе будет использована ближайшая доступная кровать смертного покоя.</AutoDeathRest.RequireOwnedBedTip>
+  <AutoDeathRest.ShowNotification>Показывать письмо при запуске автоматического смертного покоя</AutoDeathRest.ShowNotification>
+  <AutoDeathRest.ShowNotificationTip>Выводит письмо в правом верхнем углу каждый раз, когда пешка автоматически уходит в смертный покой.</AutoDeathRest.ShowNotificationTip>
+  <AutoDeathRest.LetterLabel>Автоматический смертный покой: {0}</AutoDeathRest.LetterLabel>
+  <AutoDeathRest.LetterText>{0} автоматически начал(а) смертный покой. Остаток потребности: {1} %.</AutoDeathRest.LetterText>
+  <AutoDeathRest.LetterTextExhaustion>{0} автоматически начал(а) смертный покой из-за истощения смертного покоя.</AutoDeathRest.LetterTextExhaustion>
+</LanguageData>

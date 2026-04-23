@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AutoDeathRest.Enabled>Activer le repos mortuaire automatique</AutoDeathRest.Enabled>
+  <AutoDeathRest.EnabledTip>Si activé, les pions porteurs du gène Repos mortuaire entrent automatiquement en repos mortuaire dès que leur besoin restant passe sous le seuil.</AutoDeathRest.EnabledTip>
+  <AutoDeathRest.ThresholdLabel>Repos mortuaire automatique quand le besoin restant tombe sous : {0} %</AutoDeathRest.ThresholdLabel>
+  <AutoDeathRest.TriggerOnExhaustion>Toujours déclencher en cas d'épuisement de repos mortuaire</AutoDeathRest.TriggerOnExhaustion>
+  <AutoDeathRest.TriggerOnExhaustionTip>Si un pion développe la maladie « épuisement de repos mortuaire », forcer le repos mortuaire immédiatement, indépendamment du seuil.</AutoDeathRest.TriggerOnExhaustionTip>
+  <AutoDeathRest.RequireOwnedBed>Utiliser uniquement le lit assigné</AutoDeathRest.RequireOwnedBed>
+  <AutoDeathRest.RequireOwnedBedTip>Si cochée, les pions n'utilisent que le lit qui leur est assigné. Sinon, le lit de repos mortuaire le plus proche est utilisé.</AutoDeathRest.RequireOwnedBedTip>
+  <AutoDeathRest.ShowNotification>Afficher une lettre au démarrage du repos mortuaire auto</AutoDeathRest.ShowNotification>
+  <AutoDeathRest.ShowNotificationTip>Publie une lettre en haut à droite chaque fois qu'un pion entre automatiquement en repos mortuaire.</AutoDeathRest.ShowNotificationTip>
+  <AutoDeathRest.LetterLabel>Repos mortuaire auto : {0}</AutoDeathRest.LetterLabel>
+  <AutoDeathRest.LetterText>{0} a commencé le repos mortuaire automatiquement. Besoin restant : {1} %.</AutoDeathRest.LetterText>
+  <AutoDeathRest.LetterTextExhaustion>{0} a commencé le repos mortuaire automatiquement à cause de l'épuisement de repos mortuaire.</AutoDeathRest.LetterTextExhaustion>
+</LanguageData>

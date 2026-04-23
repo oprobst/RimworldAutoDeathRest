@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AutoDeathRest.Enabled>Automatikus halálpihenő engedélyezése</AutoDeathRest.Enabled>
+  <AutoDeathRest.EnabledTip>Ha engedélyezve van, a Halálpihenő génnel rendelkező figurák automatikusan halálpihenőbe lépnek, amint a fennmaradó szükségletük a küszöb alá esik.</AutoDeathRest.EnabledTip>
+  <AutoDeathRest.ThresholdLabel>Automatikus halálpihenő, ha a fennmaradó szükséglet az alábbi érték alá esik: {0} %</AutoDeathRest.ThresholdLabel>
+  <AutoDeathRest.TriggerOnExhaustion>Halálpihenő-kimerültség esetén mindig aktiválódjon</AutoDeathRest.TriggerOnExhaustion>
+  <AutoDeathRest.TriggerOnExhaustionTip>Ha egy figuránál megjelenik a halálpihenő-kimerültség nyavalya, a halálpihenő azonnali kikényszerítése, a küszöbtől függetlenül.</AutoDeathRest.TriggerOnExhaustionTip>
+  <AutoDeathRest.RequireOwnedBed>Csak a hozzárendelt ágy használata</AutoDeathRest.RequireOwnedBed>
+  <AutoDeathRest.RequireOwnedBedTip>Ha be van jelölve, a figurák kizárólag a hozzájuk rendelt ágyban pihennek halálpihenőt. Egyébként a legközelebbi elérhető halálpihenő-ágy használatos.</AutoDeathRest.RequireOwnedBedTip>
+  <AutoDeathRest.ShowNotification>Levél megjelenítése automatikus halálpihenő indításakor</AutoDeathRest.ShowNotification>
+  <AutoDeathRest.ShowNotificationTip>Minden automatikus halálpihenő indulásakor megjelenít egy levelet a jobb felső sarokban.</AutoDeathRest.ShowNotificationTip>
+  <AutoDeathRest.LetterLabel>Automatikus halálpihenő: {0}</AutoDeathRest.LetterLabel>
+  <AutoDeathRest.LetterText>{0} automatikusan megkezdte a halálpihenőt. Fennmaradó szükséglet: {1} %.</AutoDeathRest.LetterText>
+  <AutoDeathRest.LetterTextExhaustion>{0} automatikusan megkezdte a halálpihenőt halálpihenő-kimerültség miatt.</AutoDeathRest.LetterTextExhaustion>
+</LanguageData>

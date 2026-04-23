@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AutoDeathRest.Enabled>自動デスレストを有効化</AutoDeathRest.Enabled>
+  <AutoDeathRest.EnabledTip>有効にすると、デスレスト遺伝子を持つポーンは残り必要量がしきい値を下回った時点で自動的にデスレストに入ります。</AutoDeathRest.EnabledTip>
+  <AutoDeathRest.ThresholdLabel>残り必要量が次の値を下回ったら自動デスレスト: {0}%</AutoDeathRest.ThresholdLabel>
+  <AutoDeathRest.TriggerOnExhaustion>デスレスト疲弊時は常にトリガーする</AutoDeathRest.TriggerOnExhaustion>
+  <AutoDeathRest.TriggerOnExhaustionTip>ポーンにデスレスト疲弊のヘディフが発生した場合、しきい値に関係なく直ちにデスレストを強制します。</AutoDeathRest.TriggerOnExhaustionTip>
+  <AutoDeathRest.RequireOwnedBed>割り当てられたベッドのみ使用する</AutoDeathRest.RequireOwnedBed>
+  <AutoDeathRest.RequireOwnedBedTip>チェックすると、ポーンは自身に割り当てられたベッドでのみデスレストを行います。そうでない場合は最寄りの利用可能なデスレスト対応ベッドを使用します。</AutoDeathRest.RequireOwnedBedTip>
+  <AutoDeathRest.ShowNotification>自動デスレスト開始時にレターを表示</AutoDeathRest.ShowNotification>
+  <AutoDeathRest.ShowNotificationTip>ポーンが自動的にデスレストに入るたびに、画面右上にレターを表示します。</AutoDeathRest.ShowNotificationTip>
+  <AutoDeathRest.LetterLabel>自動デスレスト: {0}</AutoDeathRest.LetterLabel>
+  <AutoDeathRest.LetterText>{0} は自動的にデスレストを開始しました。残り必要量: {1}%。</AutoDeathRest.LetterText>
+  <AutoDeathRest.LetterTextExhaustion>{0} はデスレスト疲弊により自動的にデスレストを開始しました。</AutoDeathRest.LetterTextExhaustion>
+</LanguageData>

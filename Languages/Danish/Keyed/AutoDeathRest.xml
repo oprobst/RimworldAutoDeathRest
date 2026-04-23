@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AutoDeathRest.Enabled>Aktivér automatisk dødshvile</AutoDeathRest.Enabled>
+  <AutoDeathRest.EnabledTip>Når aktiveret går pawns med dødshvile-genet automatisk i dødshvile, når deres resterende behov falder under tærsklen.</AutoDeathRest.EnabledTip>
+  <AutoDeathRest.ThresholdLabel>Automatisk dødshvile når resterende behov falder under: {0} %</AutoDeathRest.ThresholdLabel>
+  <AutoDeathRest.TriggerOnExhaustion>Udløs altid ved dødshvile-udmattelse</AutoDeathRest.TriggerOnExhaustion>
+  <AutoDeathRest.TriggerOnExhaustionTip>Hvis en pawn udvikler dødshvile-udmattelsens hediff, tving dødshvile øjeblikkeligt, uanset tærsklen.</AutoDeathRest.TriggerOnExhaustionTip>
+  <AutoDeathRest.RequireOwnedBed>Brug kun tildelt seng</AutoDeathRest.RequireOwnedBed>
+  <AutoDeathRest.RequireOwnedBedTip>Hvis markeret vil pawns kun holde dødshvile i deres tildelte seng. Ellers bruges den nærmeste tilgængelige dødshvile-seng.</AutoDeathRest.RequireOwnedBedTip>
+  <AutoDeathRest.ShowNotification>Vis brev når automatisk dødshvile starter</AutoDeathRest.ShowNotification>
+  <AutoDeathRest.ShowNotificationTip>Viser et brev i øverste højre hjørne, hver gang en pawn automatisk går i dødshvile.</AutoDeathRest.ShowNotificationTip>
+  <AutoDeathRest.LetterLabel>Automatisk dødshvile: {0}</AutoDeathRest.LetterLabel>
+  <AutoDeathRest.LetterText>{0} er automatisk begyndt at holde dødshvile. Resterende behov: {1} %.</AutoDeathRest.LetterText>
+  <AutoDeathRest.LetterTextExhaustion>{0} er automatisk begyndt at holde dødshvile på grund af dødshvile-udmattelse.</AutoDeathRest.LetterTextExhaustion>
+</LanguageData>

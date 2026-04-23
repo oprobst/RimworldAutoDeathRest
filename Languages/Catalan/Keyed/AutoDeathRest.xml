@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AutoDeathRest.Enabled>Activa el descans mortal automàtic</AutoDeathRest.Enabled>
+  <AutoDeathRest.EnabledTip>Si està activat, els pawns amb el gen Descans Mortal entren automàticament en descans mortal quan la seva necessitat restant cau per sota del llindar.</AutoDeathRest.EnabledTip>
+  <AutoDeathRest.ThresholdLabel>Descans mortal automàtic quan la necessitat restant cau per sota de: {0} %</AutoDeathRest.ThresholdLabel>
+  <AutoDeathRest.TriggerOnExhaustion>Activa sempre en cas d'esgotament de descans mortal</AutoDeathRest.TriggerOnExhaustion>
+  <AutoDeathRest.TriggerOnExhaustionTip>Si un pawn desenvolupa el hediff d'esgotament de descans mortal, força el descans mortal immediatament, independentment del llindar.</AutoDeathRest.TriggerOnExhaustionTip>
+  <AutoDeathRest.RequireOwnedBed>Usa només el llit assignat</AutoDeathRest.RequireOwnedBed>
+  <AutoDeathRest.RequireOwnedBedTip>Si està marcat, els pawns faran descans mortal només al llit que tenen assignat. Si no, s'utilitzarà el llit de descans mortal disponible més proper.</AutoDeathRest.RequireOwnedBedTip>
+  <AutoDeathRest.ShowNotification>Mostra una carta en iniciar el descans mortal automàtic</AutoDeathRest.ShowNotification>
+  <AutoDeathRest.ShowNotificationTip>Publica una carta a la cantonada superior dreta cada cop que un pawn entra automàticament en descans mortal.</AutoDeathRest.ShowNotificationTip>
+  <AutoDeathRest.LetterLabel>Descans mortal automàtic: {0}</AutoDeathRest.LetterLabel>
+  <AutoDeathRest.LetterText>{0} ha iniciat el descans mortal automàticament. Necessitat restant: {1} %.</AutoDeathRest.LetterText>
+  <AutoDeathRest.LetterTextExhaustion>{0} ha iniciat el descans mortal automàticament a causa de l'esgotament de descans mortal.</AutoDeathRest.LetterTextExhaustion>
+</LanguageData>

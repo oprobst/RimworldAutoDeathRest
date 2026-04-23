@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AutoDeathRest.Enabled>Activar descanso mortal automático</AutoDeathRest.Enabled>
+  <AutoDeathRest.EnabledTip>Si está activado, los pawns con el gen Descanso Mortal entran automáticamente en descanso mortal cuando su necesidad restante cae por debajo del umbral.</AutoDeathRest.EnabledTip>
+  <AutoDeathRest.ThresholdLabel>Descanso mortal automático cuando la necesidad restante baja de: {0} %</AutoDeathRest.ThresholdLabel>
+  <AutoDeathRest.TriggerOnExhaustion>Activar siempre en caso de agotamiento por descanso mortal</AutoDeathRest.TriggerOnExhaustion>
+  <AutoDeathRest.TriggerOnExhaustionTip>Si un pawn desarrolla la hediff de agotamiento de descanso mortal, fuerza el descanso mortal de inmediato, sin importar el umbral.</AutoDeathRest.TriggerOnExhaustionTip>
+  <AutoDeathRest.RequireOwnedBed>Usar solo la cama asignada</AutoDeathRest.RequireOwnedBed>
+  <AutoDeathRest.RequireOwnedBedTip>Si está marcado, los pawns solo harán descanso mortal en su cama asignada. De lo contrario, se usará la cama de descanso mortal disponible más cercana.</AutoDeathRest.RequireOwnedBedTip>
+  <AutoDeathRest.ShowNotification>Mostrar carta al iniciar descanso mortal automático</AutoDeathRest.ShowNotification>
+  <AutoDeathRest.ShowNotificationTip>Publica una carta en la esquina superior derecha cuando se activa el descanso mortal automático.</AutoDeathRest.ShowNotificationTip>
+  <AutoDeathRest.LetterLabel>Descanso mortal automático: {0}</AutoDeathRest.LetterLabel>
+  <AutoDeathRest.LetterText>{0} ha iniciado el descanso mortal automáticamente. Necesidad restante: {1} %.</AutoDeathRest.LetterText>
+  <AutoDeathRest.LetterTextExhaustion>{0} ha iniciado el descanso mortal automáticamente debido al agotamiento por descanso mortal.</AutoDeathRest.LetterTextExhaustion>
+</LanguageData>

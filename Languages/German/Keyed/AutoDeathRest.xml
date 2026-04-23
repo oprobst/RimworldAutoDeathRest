@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AutoDeathRest.Enabled>Auto-Todesschlaf aktivieren</AutoDeathRest.Enabled>
+  <AutoDeathRest.EnabledTip>Wenn aktiviert, legen sich Pawns mit dem Todesschlaf-Gen automatisch schlafen, sobald ihr verbleibender Bedarf unter den Schwellwert fällt.</AutoDeathRest.EnabledTip>
+  <AutoDeathRest.ThresholdLabel>Auto-Todesschlaf wenn Restbedarf unter: {0}%</AutoDeathRest.ThresholdLabel>
+  <AutoDeathRest.TriggerOnExhaustion>Bei Todesschlaf Erschöpfung sofort auslösen</AutoDeathRest.TriggerOnExhaustion>
+  <AutoDeathRest.TriggerOnExhaustionTip>Wenn ein Pawn die Todesschlaf-Erschöpfung-Hediff bekommt, wird der Todesschlaf unabhängig vom Schwellwert sofort ausgelöst.</AutoDeathRest.TriggerOnExhaustionTip>
+  <AutoDeathRest.RequireOwnedBed>Nur zugewiesenes Bett verwenden</AutoDeathRest.RequireOwnedBed>
+  <AutoDeathRest.RequireOwnedBedTip>Wenn aktiviert, nutzen Pawns ausschließlich ihr zugewiesenes Bett. Andernfalls wird das nächste verfügbare Todesschlaf-fähige Bett genutzt.</AutoDeathRest.RequireOwnedBedTip>
+  <AutoDeathRest.ShowNotification>Meldung beim Auto-Todesschlaf anzeigen</AutoDeathRest.ShowNotification>
+  <AutoDeathRest.ShowNotificationTip>Zeigt oben rechts eine Nachricht, sobald ein Pawn automatisch in den Todesschlaf geht.</AutoDeathRest.ShowNotificationTip>
+  <AutoDeathRest.LetterLabel>Auto-Todesschlaf: {0}</AutoDeathRest.LetterLabel>
+  <AutoDeathRest.LetterText>{0} hat automatisch den Todesschlaf begonnen. Verbleibender Todesschlaf-Bedarf: {1}%.</AutoDeathRest.LetterText>
+  <AutoDeathRest.LetterTextExhaustion>{0} hat wegen Todesschlaf Erschöpfung automatisch den Todesschlaf begonnen.</AutoDeathRest.LetterTextExhaustion>
+</LanguageData>

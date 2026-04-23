@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AutoDeathRest.Enabled>启用自动死眠</AutoDeathRest.Enabled>
+  <AutoDeathRest.EnabledTip>启用后，拥有死眠基因的小人在剩余需求低于阈值时会自动进入死眠。</AutoDeathRest.EnabledTip>
+  <AutoDeathRest.ThresholdLabel>剩余需求低于以下值时自动死眠：{0}%</AutoDeathRest.ThresholdLabel>
+  <AutoDeathRest.TriggerOnExhaustion>死眠疲竭时始终触发</AutoDeathRest.TriggerOnExhaustion>
+  <AutoDeathRest.TriggerOnExhaustionTip>若小人出现死眠疲竭的健康状态，无论阈值如何，都会立即强制开始死眠。</AutoDeathRest.TriggerOnExhaustionTip>
+  <AutoDeathRest.RequireOwnedBed>仅使用分配的床</AutoDeathRest.RequireOwnedBed>
+  <AutoDeathRest.RequireOwnedBedTip>勾选后，小人只会在分配给自己的床上进行死眠。否则将使用最近可用的死眠床。</AutoDeathRest.RequireOwnedBedTip>
+  <AutoDeathRest.ShowNotification>自动死眠开始时显示信件</AutoDeathRest.ShowNotification>
+  <AutoDeathRest.ShowNotificationTip>每当小人自动进入死眠时，在右上角显示一封信件。</AutoDeathRest.ShowNotificationTip>
+  <AutoDeathRest.LetterLabel>自动死眠：{0}</AutoDeathRest.LetterLabel>
+  <AutoDeathRest.LetterText>{0} 已自动开始死眠。剩余需求：{1}%。</AutoDeathRest.LetterText>
+  <AutoDeathRest.LetterTextExhaustion>{0} 因死眠疲竭自动开始死眠。</AutoDeathRest.LetterTextExhaustion>
+</LanguageData>
