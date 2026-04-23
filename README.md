@@ -109,16 +109,11 @@ AutoDeathRest/
   make-modicon.ps1     Regenerates About/ModIcon.png
 ```
 
-## Contributing
+## Status & forking
 
-Pull requests are welcome — bug fixes, new options, better translations, all of
-it. Feel free to fork the repo and make it your own; if you do, a link back is
-appreciated but not required.
-
-If you hit a bug, open an issue with:
-- RimWorld version
-- Active mod list (or at least the ones touching Biotech / deathrest)
-- HugsLib log if the issue is a crash or error spam
+This mod is released as-is and is **not actively supported**. Feel free to fork
+the repo and adapt it to your needs; a link back is appreciated but not
+required.
 
 ## License
 
