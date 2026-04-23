@@ -3,6 +3,7 @@
 ![RimWorld 1.6](https://img.shields.io/badge/RimWorld-1.6-brightgreen)
 ![Biotech required](https://img.shields.io/badge/DLC-Biotech-red)
 ![Harmony](https://img.shields.io/badge/Harmony-2.3.3-blue)
+[![Steam Workshop](https://img.shields.io/badge/Steam-Workshop-1b2838?logo=steam)](https://steamcommunity.com/sharedfiles/filedetails/?id=3712440043)
 
 Sanguophages — and any other pawn carrying the **Deathrest** gene — automatically
 enter deathrest once their remaining deathrest need falls below a configurable
@@ -42,7 +43,11 @@ Reimplemented from scratch for RimWorld 1.6.
 
 ### Steam Workshop
 
-*(Workshop upload pending — for now use the manual install below.)*
+Subscribe on the Workshop (recommended):
+**<https://steamcommunity.com/sharedfiles/filedetails/?id=3712440043>**
+
+Steam will keep the mod updated automatically. Remember to also subscribe to
+Harmony (linked above) and enable the Biotech DLC.
 
 ### Manual
 
