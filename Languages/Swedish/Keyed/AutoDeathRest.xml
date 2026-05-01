@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <AutoDeathRest.Enabled>Aktivera automatisk dödsvila</AutoDeathRest.Enabled>
   <AutoDeathRest.EnabledTip>När aktiverat går pawns med dödsvila-genen automatiskt in i dödsvila när deras återstående behov sjunker under tröskeln.</AutoDeathRest.EnabledTip>
@@ -12,4 +12,6 @@
   <AutoDeathRest.LetterLabel>Automatisk dödsvila: {0}</AutoDeathRest.LetterLabel>
   <AutoDeathRest.LetterText>{0} har påbörjat dödsvila automatiskt. Återstående behov: {1} %.</AutoDeathRest.LetterText>
   <AutoDeathRest.LetterTextExhaustion>{0} har påbörjat dödsvila automatiskt på grund av dödsvila-utmattning.</AutoDeathRest.LetterTextExhaustion>
+  <AutoDeathRest.ForceAutoWake>Tvinga automatiskt uppvaknande efter dödsvila</AutoDeathRest.ForceAutoWake>
+  <AutoDeathRest.ForceAutoWakeTip>När auto-dödsvila startar aktiveras även genens auto-uppvaknings-flagga, så att pawn vaknar automatiskt när cykeln är klar.</AutoDeathRest.ForceAutoWakeTip>
 </LanguageData>

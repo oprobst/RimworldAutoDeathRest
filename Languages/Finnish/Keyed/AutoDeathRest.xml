@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <AutoDeathRest.Enabled>Ota automaattinen kuolonlepo käyttöön</AutoDeathRest.Enabled>
   <AutoDeathRest.EnabledTip>Kun käytössä, kuolonlevon geeniä kantavat pawnit siirtyvät automaattisesti kuolonlepoon, kun niiden jäljellä oleva tarve laskee kynnyksen alle.</AutoDeathRest.EnabledTip>
@@ -12,4 +12,6 @@
   <AutoDeathRest.LetterLabel>Automaattinen kuolonlepo: {0}</AutoDeathRest.LetterLabel>
   <AutoDeathRest.LetterText>{0} aloitti automaattisesti kuolonlevon. Jäljellä oleva tarve: {1} %.</AutoDeathRest.LetterText>
   <AutoDeathRest.LetterTextExhaustion>{0} aloitti automaattisesti kuolonlevon kuolonlevon uupumuksen vuoksi.</AutoDeathRest.LetterTextExhaustion>
+  <AutoDeathRest.ForceAutoWake>Pakota automaattinen herääminen kuolemanlevon jälkeen</AutoDeathRest.ForceAutoWake>
+  <AutoDeathRest.ForceAutoWakeTip>Kun auto-kuolemanlepo käynnistyy, geenin auto-herää-lippu kytketään myös päälle, jotta pawn herää automaattisesti syklin päätyttyä.</AutoDeathRest.ForceAutoWakeTip>
 </LanguageData>

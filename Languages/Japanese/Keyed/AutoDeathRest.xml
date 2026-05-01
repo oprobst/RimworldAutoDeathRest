@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <AutoDeathRest.Enabled>自動デスレストを有効化</AutoDeathRest.Enabled>
   <AutoDeathRest.EnabledTip>有効にすると、デスレスト遺伝子を持つポーンは残り必要量がしきい値を下回った時点で自動的にデスレストに入ります。</AutoDeathRest.EnabledTip>
@@ -12,4 +12,6 @@
   <AutoDeathRest.LetterLabel>自動デスレスト: {0}</AutoDeathRest.LetterLabel>
   <AutoDeathRest.LetterText>{0} は自動的にデスレストを開始しました。残り必要量: {1}%。</AutoDeathRest.LetterText>
   <AutoDeathRest.LetterTextExhaustion>{0} はデスレスト疲弊により自動的にデスレストを開始しました。</AutoDeathRest.LetterTextExhaustion>
+  <AutoDeathRest.ForceAutoWake>デスレスト終了後の自動覚醒を強制</AutoDeathRest.ForceAutoWake>
+  <AutoDeathRest.ForceAutoWakeTip>自動デスレスト開始時、遺伝子の自動覚醒フラグも有効にし、サイクル終了後にポーンが自動的に目覚めるようにします。</AutoDeathRest.ForceAutoWakeTip>
 </LanguageData>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <AutoDeathRest.Enabled>Activar descanso mortal automático</AutoDeathRest.Enabled>
   <AutoDeathRest.EnabledTip>Si está activado, los pawns con el gen Descanso Mortal entran automáticamente en descanso mortal cuando su necesidad restante cae por debajo del umbral.</AutoDeathRest.EnabledTip>
@@ -12,4 +12,6 @@
   <AutoDeathRest.LetterLabel>Descanso mortal automático: {0}</AutoDeathRest.LetterLabel>
   <AutoDeathRest.LetterText>{0} ha iniciado el descanso mortal automáticamente. Necesidad restante: {1} %.</AutoDeathRest.LetterText>
   <AutoDeathRest.LetterTextExhaustion>{0} ha iniciado el descanso mortal automáticamente debido al agotamiento por descanso mortal.</AutoDeathRest.LetterTextExhaustion>
+  <AutoDeathRest.ForceAutoWake>Forzar despertar automático tras el descanso mortal</AutoDeathRest.ForceAutoWake>
+  <AutoDeathRest.ForceAutoWakeTip>Cuando inicia el auto-descanso mortal, también se activa la marca de auto-despertar del gen, para que el pawn se despierte solo al terminar el ciclo.</AutoDeathRest.ForceAutoWakeTip>
 </LanguageData>

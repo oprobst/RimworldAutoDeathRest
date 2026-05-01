@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <AutoDeathRest.Enabled>Activează odihna morții automată</AutoDeathRest.Enabled>
   <AutoDeathRest.EnabledTip>Dacă este activat, pionii cu gena Odihna Morții intră automat în odihna morții când necesarul rămas scade sub prag.</AutoDeathRest.EnabledTip>
@@ -12,4 +12,6 @@
   <AutoDeathRest.LetterLabel>Odihna morții automată: {0}</AutoDeathRest.LetterLabel>
   <AutoDeathRest.LetterText>{0} a început automat odihna morții. Necesar rămas: {1} %.</AutoDeathRest.LetterText>
   <AutoDeathRest.LetterTextExhaustion>{0} a început automat odihna morții din cauza epuizării odihnei morții.</AutoDeathRest.LetterTextExhaustion>
+  <AutoDeathRest.ForceAutoWake>Forțează trezirea automată după repausul mortal</AutoDeathRest.ForceAutoWake>
+  <AutoDeathRest.ForceAutoWakeTip>Când auto-repausul mortal pornește, marcajul de trezire automată al genei este activat și el, astfel încât pawn-ul să se trezească singur la finalul ciclului.</AutoDeathRest.ForceAutoWakeTip>
 </LanguageData>

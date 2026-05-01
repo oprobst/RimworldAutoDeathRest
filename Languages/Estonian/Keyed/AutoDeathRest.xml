@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <AutoDeathRest.Enabled>Luba automaatne surmapuhkus</AutoDeathRest.Enabled>
   <AutoDeathRest.EnabledTip>Kui lubatud, lähevad Surmapuhkuse geeniga pawnid automaatselt surmapuhkusesse, kui nende ülejäänud vajadus langeb allapoole läve.</AutoDeathRest.EnabledTip>
@@ -12,4 +12,6 @@
   <AutoDeathRest.LetterLabel>Automaatne surmapuhkus: {0}</AutoDeathRest.LetterLabel>
   <AutoDeathRest.LetterText>{0} alustas automaatselt surmapuhkust. Ülejäänud vajadus: {1} %.</AutoDeathRest.LetterText>
   <AutoDeathRest.LetterTextExhaustion>{0} alustas automaatselt surmapuhkust surmapuhkuse kurnatuse tõttu.</AutoDeathRest.LetterTextExhaustion>
+  <AutoDeathRest.ForceAutoWake>Sundida automaatset ärkamist pärast surmapuhkust</AutoDeathRest.ForceAutoWake>
+  <AutoDeathRest.ForceAutoWakeTip>Kui automaatne surmapuhkus algab, lülitatakse sisse ka geeni automaatse ärkamise lipp, et pawn pärast tsükli lõppu automaatselt ärkaks.</AutoDeathRest.ForceAutoWakeTip>
 </LanguageData>

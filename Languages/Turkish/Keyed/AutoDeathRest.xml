@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <AutoDeathRest.Enabled>Otomatik ölüm istirahatini etkinleştir</AutoDeathRest.Enabled>
   <AutoDeathRest.EnabledTip>Etkinleştirildiğinde, Ölüm İstirahati genine sahip pawn'lar, kalan ihtiyaçları eşiğin altına düştüğünde otomatik olarak ölüm istirahatine girer.</AutoDeathRest.EnabledTip>
@@ -12,4 +12,6 @@
   <AutoDeathRest.LetterLabel>Otomatik ölüm istirahati: {0}</AutoDeathRest.LetterLabel>
   <AutoDeathRest.LetterText>{0} otomatik olarak ölüm istirahatine başladı. Kalan ihtiyaç: %{1}.</AutoDeathRest.LetterText>
   <AutoDeathRest.LetterTextExhaustion>{0}, ölüm istirahati tükenmesi nedeniyle otomatik olarak ölüm istirahatine başladı.</AutoDeathRest.LetterTextExhaustion>
+  <AutoDeathRest.ForceAutoWake>Ölüm uykusu bitiminde otomatik uyanmayı zorla</AutoDeathRest.ForceAutoWake>
+  <AutoDeathRest.ForceAutoWakeTip>Otomatik ölüm uykusu başladığında, genin otomatik uyanma bayrağı da etkinleştirilir; böylece pawn döngü sonunda kendiliğinden uyanır.</AutoDeathRest.ForceAutoWakeTip>
 </LanguageData>

@@ -41,6 +41,11 @@ namespace AutoDeathRest
             listing.CheckboxLabeled("AutoDeathRest.ShowNotification".Translate(),
                 ref Settings.ShowNotification,
                 "AutoDeathRest.ShowNotificationTip".Translate());
+            listing.Gap(8f);
+
+            listing.CheckboxLabeled("AutoDeathRest.ForceAutoWake".Translate(),
+                ref Settings.ForceAutoWake,
+                "AutoDeathRest.ForceAutoWakeTip".Translate());
 
             listing.End();
             base.DoSettingsWindowContents(inRect);

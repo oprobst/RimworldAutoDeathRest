@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <AutoDeathRest.Enabled>Attiva riposo mortale automatico</AutoDeathRest.Enabled>
   <AutoDeathRest.EnabledTip>Se attivato, i pawn con il gene Riposo Mortale entrano automaticamente in riposo mortale quando il loro bisogno residuo scende sotto la soglia.</AutoDeathRest.EnabledTip>
@@ -12,4 +12,6 @@
   <AutoDeathRest.LetterLabel>Riposo mortale automatico: {0}</AutoDeathRest.LetterLabel>
   <AutoDeathRest.LetterText>{0} ha iniziato il riposo mortale automaticamente. Bisogno residuo: {1} %.</AutoDeathRest.LetterText>
   <AutoDeathRest.LetterTextExhaustion>{0} ha iniziato il riposo mortale automaticamente a causa dell'esaurimento da riposo mortale.</AutoDeathRest.LetterTextExhaustion>
+  <AutoDeathRest.ForceAutoWake>Forza il risveglio automatico dopo il riposo mortale</AutoDeathRest.ForceAutoWake>
+  <AutoDeathRest.ForceAutoWakeTip>Quando l'auto-riposo mortale parte, viene attivato anche il flag di auto-risveglio del gene, così il pawn si sveglia automaticamente alla fine del ciclo.</AutoDeathRest.ForceAutoWakeTip>
 </LanguageData>

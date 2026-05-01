@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <AutoDeathRest.Enabled>Enable auto-deathrest</AutoDeathRest.Enabled>
   <AutoDeathRest.EnabledTip>When enabled, pawns with the Deathrest gene automatically enter deathrest when their remaining cycle drops below the threshold.</AutoDeathRest.EnabledTip>
@@ -12,4 +12,6 @@
   <AutoDeathRest.LetterLabel>Auto-deathrest: {0}</AutoDeathRest.LetterLabel>
   <AutoDeathRest.LetterText>{0} has started deathresting automatically. Remaining deathrest need: {1}%.</AutoDeathRest.LetterText>
   <AutoDeathRest.LetterTextExhaustion>{0} has started deathresting automatically due to deathrest exhaustion.</AutoDeathRest.LetterTextExhaustion>
+  <AutoDeathRest.ForceAutoWake>Force auto-wake when deathrest finishes</AutoDeathRest.ForceAutoWake>
+  <AutoDeathRest.ForceAutoWakeTip>When auto-deathrest starts, also enable the gene's auto-wake flag so the pawn wakes up automatically once the deathrest cycle completes.</AutoDeathRest.ForceAutoWakeTip>
 </LanguageData>

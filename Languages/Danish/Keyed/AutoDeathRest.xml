@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <AutoDeathRest.Enabled>Aktivér automatisk dødshvile</AutoDeathRest.Enabled>
   <AutoDeathRest.EnabledTip>Når aktiveret går pawns med dødshvile-genet automatisk i dødshvile, når deres resterende behov falder under tærsklen.</AutoDeathRest.EnabledTip>
@@ -12,4 +12,6 @@
   <AutoDeathRest.LetterLabel>Automatisk dødshvile: {0}</AutoDeathRest.LetterLabel>
   <AutoDeathRest.LetterText>{0} er automatisk begyndt at holde dødshvile. Resterende behov: {1} %.</AutoDeathRest.LetterText>
   <AutoDeathRest.LetterTextExhaustion>{0} er automatisk begyndt at holde dødshvile på grund af dødshvile-udmattelse.</AutoDeathRest.LetterTextExhaustion>
+  <AutoDeathRest.ForceAutoWake>Tving automatisk opvågning efter dødssøvn</AutoDeathRest.ForceAutoWake>
+  <AutoDeathRest.ForceAutoWakeTip>Når auto-dødssøvn starter, aktiveres genets auto-opvågning-flag også, så pawnen vågner automatisk når cyklussen er færdig.</AutoDeathRest.ForceAutoWakeTip>
 </LanguageData>

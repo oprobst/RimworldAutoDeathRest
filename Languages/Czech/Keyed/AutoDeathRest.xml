@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <AutoDeathRest.Enabled>Zapnout automatický smrtelný odpočinek</AutoDeathRest.Enabled>
   <AutoDeathRest.EnabledTip>Pokud je zapnuto, pěšáci s genem smrtelného odpočinku automaticky zahájí smrtelný odpočinek, jakmile jejich zbývající potřeba klesne pod práh.</AutoDeathRest.EnabledTip>
@@ -12,4 +12,6 @@
   <AutoDeathRest.LetterLabel>Automatický smrtelný odpočinek: {0}</AutoDeathRest.LetterLabel>
   <AutoDeathRest.LetterText>{0} automaticky zahájil(a) smrtelný odpočinek. Zbývající potřeba: {1} %.</AutoDeathRest.LetterText>
   <AutoDeathRest.LetterTextExhaustion>{0} automaticky zahájil(a) smrtelný odpočinek kvůli vyčerpání smrtelného odpočinku.</AutoDeathRest.LetterTextExhaustion>
+  <AutoDeathRest.ForceAutoWake>Vynutit automatické probuzení po smrtelném spánku</AutoDeathRest.ForceAutoWake>
+  <AutoDeathRest.ForceAutoWakeTip>Při zahájení automatického smrtelného spánku se zároveň zapne příznak automatického probuzení v genu, aby se kolonista po dokončení cyklu sám probudil.</AutoDeathRest.ForceAutoWakeTip>
 </LanguageData>

@@ -99,6 +99,8 @@ namespace AutoDeathRest
             job.forceSleep = true;
             if (!pawn.jobs.TryTakeOrderedJob(job, JobTag.Misc)) return;
 
+            if (settings.ForceAutoWake) gene.autoWake = true;
+
             // Even on a successful queue, the job may be overridden before it
             // actually starts (mental break interrupts, draft, etc.). Don't
             // retry — and don't fire another letter — until the cooldown elapses.

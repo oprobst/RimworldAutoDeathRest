@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <AutoDeathRest.Enabled>Auto-Todesschlaf aktivieren</AutoDeathRest.Enabled>
   <AutoDeathRest.EnabledTip>Wenn aktiviert, legen sich Pawns mit dem Todesschlaf-Gen automatisch schlafen, sobald ihr verbleibender Bedarf unter den Schwellwert fällt.</AutoDeathRest.EnabledTip>
@@ -12,4 +12,6 @@
   <AutoDeathRest.LetterLabel>Auto-Todesschlaf: {0}</AutoDeathRest.LetterLabel>
   <AutoDeathRest.LetterText>{0} hat automatisch den Todesschlaf begonnen. Verbleibender Todesschlaf-Bedarf: {1}%.</AutoDeathRest.LetterText>
   <AutoDeathRest.LetterTextExhaustion>{0} hat wegen Todesschlaf Erschöpfung automatisch den Todesschlaf begonnen.</AutoDeathRest.LetterTextExhaustion>
+  <AutoDeathRest.ForceAutoWake>Auto-Aufwachen erzwingen</AutoDeathRest.ForceAutoWake>
+  <AutoDeathRest.ForceAutoWakeTip>Wenn Auto-Todesschlaf startet, wird zusätzlich das Auto-Aufwachen-Flag des Gens gesetzt, damit der Pawn nach Abschluss des Zyklus automatisch aufwacht.</AutoDeathRest.ForceAutoWakeTip>
 </LanguageData>

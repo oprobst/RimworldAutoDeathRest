@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <AutoDeathRest.Enabled>자동 죽음의 휴식 활성화</AutoDeathRest.Enabled>
   <AutoDeathRest.EnabledTip>활성화하면 죽음의 휴식 유전자를 가진 폰들이 남은 욕구가 임계값 아래로 떨어지면 자동으로 죽음의 휴식에 들어갑니다.</AutoDeathRest.EnabledTip>
@@ -12,4 +12,6 @@
   <AutoDeathRest.LetterLabel>자동 죽음의 휴식: {0}</AutoDeathRest.LetterLabel>
   <AutoDeathRest.LetterText>{0}이(가) 자동으로 죽음의 휴식을 시작했습니다. 남은 욕구: {1}%.</AutoDeathRest.LetterText>
   <AutoDeathRest.LetterTextExhaustion>{0}이(가) 죽음의 휴식 탈진으로 인해 자동으로 죽음의 휴식을 시작했습니다.</AutoDeathRest.LetterTextExhaustion>
+  <AutoDeathRest.ForceAutoWake>데스레스트 종료 시 자동 기상 강제</AutoDeathRest.ForceAutoWake>
+  <AutoDeathRest.ForceAutoWakeTip>자동 데스레스트가 시작되면 유전자의 자동 기상 플래그도 함께 활성화되어, 폰이 사이클 종료 시 자동으로 깨어납니다.</AutoDeathRest.ForceAutoWakeTip>
 </LanguageData>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <AutoDeathRest.Enabled>Automatikus halálpihenő engedélyezése</AutoDeathRest.Enabled>
   <AutoDeathRest.EnabledTip>Ha engedélyezve van, a Halálpihenő génnel rendelkező figurák automatikusan halálpihenőbe lépnek, amint a fennmaradó szükségletük a küszöb alá esik.</AutoDeathRest.EnabledTip>
@@ -12,4 +12,6 @@
   <AutoDeathRest.LetterLabel>Automatikus halálpihenő: {0}</AutoDeathRest.LetterLabel>
   <AutoDeathRest.LetterText>{0} automatikusan megkezdte a halálpihenőt. Fennmaradó szükséglet: {1} %.</AutoDeathRest.LetterText>
   <AutoDeathRest.LetterTextExhaustion>{0} automatikusan megkezdte a halálpihenőt halálpihenő-kimerültség miatt.</AutoDeathRest.LetterTextExhaustion>
+  <AutoDeathRest.ForceAutoWake>Automatikus ébredés kényszerítése a halálpihenő után</AutoDeathRest.ForceAutoWake>
+  <AutoDeathRest.ForceAutoWakeTip>Amikor az automata halálpihenő elindul, a gén automatikus ébredés jelzője is bekapcsol, hogy a pawn a ciklus végén magától felébredjen.</AutoDeathRest.ForceAutoWakeTip>
 </LanguageData>

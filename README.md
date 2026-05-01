@@ -17,10 +17,13 @@ Reimplemented from scratch for RimWorld 1.6.
 
 ## Features
 
-- **Threshold slider** (default 25 %). Trigger auto-deathrest when
+- **Threshold slider** (default 5 %). Trigger auto-deathrest when
   `Need_Deathrest.CurLevelPercentage` drops below the configured percent.
 - **Trigger on exhaustion** (default on). Force deathrest immediately when the
   pawn develops the `DeathrestExhaustion` hediff, regardless of threshold.
+- **Force auto-wake** (default on). When auto-deathrest starts, also enable
+  the gene's `autoWake` flag so the pawn wakes up automatically once the
+  deathrest cycle completes.
 - **Respect assigned deathrest caskets.** Assigned caskets take priority over
   normal beds. Falls back to `RestUtility.FindBedFor` for any suitable humanlike
   bed if no casket is assigned.
@@ -64,10 +67,11 @@ Open *Options → Mod settings → Auto-Deathrest*:
 | Setting                       | Default | Description                                                   |
 | ----------------------------- | ------- | ------------------------------------------------------------- |
 | Enable auto-deathrest         | on      | Master toggle.                                                |
-| Threshold %                   | 25 %    | Trigger when remaining need drops below this percent.         |
+| Threshold %                   | 5 %     | Trigger when remaining need drops below this percent.         |
 | Trigger on exhaustion         | on      | Always trigger when the exhaustion hediff is present.         |
 | Only use assigned bed         | off     | Skip pawns without an assigned deathrest-capable bed/casket.  |
 | Show letter                   | on      | Post a top-right letter when auto-deathrest starts.           |
+| Force auto-wake               | on      | Also flip the gene's auto-wake flag when triggering.          |
 
 ## Building from source
 

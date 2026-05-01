@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <AutoDeathRest.Enabled>Включить автоматический смертный покой</AutoDeathRest.Enabled>
   <AutoDeathRest.EnabledTip>Если включено, пешки с геном смертного покоя автоматически уходят в смертный покой, когда оставшаяся потребность падает ниже порога.</AutoDeathRest.EnabledTip>
@@ -12,4 +12,6 @@
   <AutoDeathRest.LetterLabel>Автоматический смертный покой: {0}</AutoDeathRest.LetterLabel>
   <AutoDeathRest.LetterText>{0} автоматически начал(а) смертный покой. Остаток потребности: {1} %.</AutoDeathRest.LetterText>
   <AutoDeathRest.LetterTextExhaustion>{0} автоматически начал(а) смертный покой из-за истощения смертного покоя.</AutoDeathRest.LetterTextExhaustion>
+  <AutoDeathRest.ForceAutoWake>Принудительное автопробуждение после смертельного отдыха</AutoDeathRest.ForceAutoWake>
+  <AutoDeathRest.ForceAutoWakeTip>При запуске авто-смертельного отдыха также включается флаг автопробуждения гена, чтобы пешка проснулась сама после завершения цикла.</AutoDeathRest.ForceAutoWakeTip>
 </LanguageData>

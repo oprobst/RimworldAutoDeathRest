@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <AutoDeathRest.Enabled>Zapnúť automatický smrteľný odpočinok</AutoDeathRest.Enabled>
   <AutoDeathRest.EnabledTip>Ak je zapnuté, pešiaci s génom smrteľného odpočinku automaticky vstúpia do smrteľného odpočinku, keď ich zostávajúca potreba klesne pod prah.</AutoDeathRest.EnabledTip>
@@ -12,4 +12,6 @@
   <AutoDeathRest.LetterLabel>Automatický smrteľný odpočinok: {0}</AutoDeathRest.LetterLabel>
   <AutoDeathRest.LetterText>{0} automaticky začal(a) smrteľný odpočinok. Zostávajúca potreba: {1} %.</AutoDeathRest.LetterText>
   <AutoDeathRest.LetterTextExhaustion>{0} automaticky začal(a) smrteľný odpočinok kvôli vyčerpaniu smrteľného odpočinku.</AutoDeathRest.LetterTextExhaustion>
+  <AutoDeathRest.ForceAutoWake>Vynútiť automatické prebudenie po smrtnom spánku</AutoDeathRest.ForceAutoWake>
+  <AutoDeathRest.ForceAutoWakeTip>Pri spustení auto-smrtného spánku sa zapne aj príznak automatického prebudenia v géne, aby sa pawn po skončení cyklu prebudil sám.</AutoDeathRest.ForceAutoWakeTip>
 </LanguageData>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <AutoDeathRest.Enabled>Włącz automatyczny martwy odpoczynek</AutoDeathRest.Enabled>
   <AutoDeathRest.EnabledTip>Gdy włączone, pionki z genem martwego odpoczynku automatycznie przechodzą w martwy odpoczynek, gdy ich pozostała potrzeba spadnie poniżej progu.</AutoDeathRest.EnabledTip>
@@ -12,4 +12,6 @@
   <AutoDeathRest.LetterLabel>Automatyczny martwy odpoczynek: {0}</AutoDeathRest.LetterLabel>
   <AutoDeathRest.LetterText>{0} automatycznie rozpoczął/-ęła martwy odpoczynek. Pozostała potrzeba: {1} %.</AutoDeathRest.LetterText>
   <AutoDeathRest.LetterTextExhaustion>{0} automatycznie rozpoczął/-ęła martwy odpoczynek z powodu wyczerpania martwego odpoczynku.</AutoDeathRest.LetterTextExhaustion>
+  <AutoDeathRest.ForceAutoWake>Wymuś automatyczne przebudzenie po śmiertelnym odpoczynku</AutoDeathRest.ForceAutoWake>
+  <AutoDeathRest.ForceAutoWakeTip>Gdy auto-śmiertelny odpoczynek się rozpoczyna, włączana jest też flaga auto-przebudzenia w genie, dzięki czemu pawn obudzi się sam po zakończeniu cyklu.</AutoDeathRest.ForceAutoWakeTip>
 </LanguageData>

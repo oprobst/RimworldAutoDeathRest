@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <AutoDeathRest.Enabled>Увімкнути автоматичний смертний спочинок</AutoDeathRest.Enabled>
   <AutoDeathRest.EnabledTip>Якщо увімкнено, пішаки з геном Смертного спочинку автоматично переходять у смертний спочинок, коли їхня залишкова потреба падає нижче порогу.</AutoDeathRest.EnabledTip>
@@ -12,4 +12,6 @@
   <AutoDeathRest.LetterLabel>Автоматичний смертний спочинок: {0}</AutoDeathRest.LetterLabel>
   <AutoDeathRest.LetterText>{0} автоматично розпочав(ла) смертний спочинок. Залишкова потреба: {1} %.</AutoDeathRest.LetterText>
   <AutoDeathRest.LetterTextExhaustion>{0} автоматично розпочав(ла) смертний спочинок через виснаження смертного спочинку.</AutoDeathRest.LetterTextExhaustion>
+  <AutoDeathRest.ForceAutoWake>Примусове автопробудження після смертельного відпочинку</AutoDeathRest.ForceAutoWake>
+  <AutoDeathRest.ForceAutoWakeTip>Коли автоматичний смертельний відпочинок починається, увімкнеться також прапор автопробудження гена, щоб пішак прокинувся сам після завершення циклу.</AutoDeathRest.ForceAutoWakeTip>
 </LanguageData>

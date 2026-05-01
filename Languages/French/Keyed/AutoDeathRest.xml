@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <AutoDeathRest.Enabled>Activer le repos mortuaire automatique</AutoDeathRest.Enabled>
   <AutoDeathRest.EnabledTip>Si activé, les pions porteurs du gène Repos mortuaire entrent automatiquement en repos mortuaire dès que leur besoin restant passe sous le seuil.</AutoDeathRest.EnabledTip>
@@ -12,4 +12,6 @@
   <AutoDeathRest.LetterLabel>Repos mortuaire auto : {0}</AutoDeathRest.LetterLabel>
   <AutoDeathRest.LetterText>{0} a commencé le repos mortuaire automatiquement. Besoin restant : {1} %.</AutoDeathRest.LetterText>
   <AutoDeathRest.LetterTextExhaustion>{0} a commencé le repos mortuaire automatiquement à cause de l'épuisement de repos mortuaire.</AutoDeathRest.LetterTextExhaustion>
+  <AutoDeathRest.ForceAutoWake>Forcer le réveil automatique après le repos mortel</AutoDeathRest.ForceAutoWake>
+  <AutoDeathRest.ForceAutoWakeTip>Quand le repos mortel automatique démarre, l'option de réveil automatique du gène est également activée, pour que le pawn se réveille tout seul à la fin du cycle.</AutoDeathRest.ForceAutoWakeTip>
 </LanguageData>

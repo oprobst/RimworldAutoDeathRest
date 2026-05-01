@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <AutoDeathRest.Enabled>Automatische doodsrust inschakelen</AutoDeathRest.Enabled>
   <AutoDeathRest.EnabledTip>Indien ingeschakeld, gaan pionnen met het Doodsrust-gen automatisch in doodsrust zodra hun resterende behoefte onder de drempel zakt.</AutoDeathRest.EnabledTip>
@@ -12,4 +12,6 @@
   <AutoDeathRest.LetterLabel>Automatische doodsrust: {0}</AutoDeathRest.LetterLabel>
   <AutoDeathRest.LetterText>{0} is automatisch met doodsrust begonnen. Resterende behoefte: {1} %.</AutoDeathRest.LetterText>
   <AutoDeathRest.LetterTextExhaustion>{0} is automatisch met doodsrust begonnen vanwege uitputting van doodsrust.</AutoDeathRest.LetterTextExhaustion>
+  <AutoDeathRest.ForceAutoWake>Automatisch ontwaken na deathrest forceren</AutoDeathRest.ForceAutoWake>
+  <AutoDeathRest.ForceAutoWakeTip>Wanneer auto-deathrest start, wordt ook de auto-wake-vlag van het gen ingeschakeld, zodat de pawn automatisch ontwaakt wanneer de cyclus voltooid is.</AutoDeathRest.ForceAutoWakeTip>
 </LanguageData>

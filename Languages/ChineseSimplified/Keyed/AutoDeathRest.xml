@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <AutoDeathRest.Enabled>启用自动死眠</AutoDeathRest.Enabled>
   <AutoDeathRest.EnabledTip>启用后，拥有死眠基因的小人在剩余需求低于阈值时会自动进入死眠。</AutoDeathRest.EnabledTip>
@@ -12,4 +12,6 @@
   <AutoDeathRest.LetterLabel>自动死眠：{0}</AutoDeathRest.LetterLabel>
   <AutoDeathRest.LetterText>{0} 已自动开始死眠。剩余需求：{1}%。</AutoDeathRest.LetterText>
   <AutoDeathRest.LetterTextExhaustion>{0} 因死眠疲竭自动开始死眠。</AutoDeathRest.LetterTextExhaustion>
+  <AutoDeathRest.ForceAutoWake>完成死息后强制自动唤醒</AutoDeathRest.ForceAutoWake>
+  <AutoDeathRest.ForceAutoWakeTip>开始自动死息时，同时启用基因的自动唤醒标志，以便殖民者在死息周期完成后自动醒来。</AutoDeathRest.ForceAutoWakeTip>
 </LanguageData>

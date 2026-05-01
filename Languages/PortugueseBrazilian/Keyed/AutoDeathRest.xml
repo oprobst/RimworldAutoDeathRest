@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <AutoDeathRest.Enabled>Ativar repouso mortal automático</AutoDeathRest.Enabled>
   <AutoDeathRest.EnabledTip>Se ativado, os colonos com o gene Repouso Mortal entram automaticamente em repouso mortal quando a necessidade restante cai abaixo do limiar.</AutoDeathRest.EnabledTip>
@@ -12,4 +12,6 @@
   <AutoDeathRest.LetterLabel>Repouso mortal automático: {0}</AutoDeathRest.LetterLabel>
   <AutoDeathRest.LetterText>{0} iniciou o repouso mortal automaticamente. Necessidade restante: {1} %.</AutoDeathRest.LetterText>
   <AutoDeathRest.LetterTextExhaustion>{0} iniciou o repouso mortal automaticamente devido à exaustão de repouso mortal.</AutoDeathRest.LetterTextExhaustion>
+  <AutoDeathRest.ForceAutoWake>Forçar despertar automático após o descanso mortal</AutoDeathRest.ForceAutoWake>
+  <AutoDeathRest.ForceAutoWakeTip>Quando o auto-descanso mortal começa, a flag de despertar automático do gene também é ativada, para que o pawn acorde sozinho ao final do ciclo.</AutoDeathRest.ForceAutoWakeTip>
 </LanguageData>
