@@ -46,18 +46,6 @@ $edgePen = New-Object System.Drawing.Pen(
 $edgePen.LineJoin = [System.Drawing.Drawing2D.LineJoin]::Round
 $g.DrawPolygon($edgePen, $coffin)
 
-# Goldenes Kreuz
-$crossBrush = New-Object System.Drawing.SolidBrush(
-    [System.Drawing.Color]::FromArgb(255, 220, 190, 130))
-$g.FillRectangle($crossBrush, ($cx - 2), 22, 4, 26)
-$g.FillRectangle($crossBrush, ($cx - 8), 30, 16, 4)
-
-# Feiner Umriss am Kreuz
-$crossPen = New-Object System.Drawing.Pen(
-    [System.Drawing.Color]::FromArgb(255, 90, 60, 20), 0.8)
-$g.DrawRectangle($crossPen, ($cx - 2), 22, 4, 26)
-$g.DrawRectangle($crossPen, ($cx - 8), 30, 16, 4)
-
 # Bluttropfen-Akzent
 $bloodBrush = New-Object System.Drawing.SolidBrush(
     [System.Drawing.Color]::FromArgb(255, 150, 14, 14))

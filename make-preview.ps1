@@ -83,27 +83,6 @@ $innerInset = @(
 )
 $g.DrawPolygon($innerPen, $innerInset)
 
-# --- Kreuz auf dem Sarg ---
-$crossColor = [System.Drawing.Color]::FromArgb(255, 210, 180, 120)
-$crossShadow = New-Object System.Drawing.SolidBrush(
-    [System.Drawing.Color]::FromArgb(160, 0, 0, 0))
-$crossBrush = New-Object System.Drawing.SolidBrush($crossColor)
-
-$crossCenterY = 330
-# Schatten leicht versetzt
-$shadowOffset = 4
-$g.FillRectangle($crossShadow, ($cx - 22 + $shadowOffset), (260 + $shadowOffset), 44, 240)
-$g.FillRectangle($crossShadow, ($cx - 80 + $shadowOffset), ($crossCenterY - 22 + $shadowOffset), 160, 44)
-# Kreuz
-$g.FillRectangle($crossBrush, ($cx - 22), 260, 44, 240)
-$g.FillRectangle($crossBrush, ($cx - 80), ($crossCenterY - 22), 160, 44)
-
-# Metallischer Rand um das Kreuz
-$crossPen = New-Object System.Drawing.Pen(
-    [System.Drawing.Color]::FromArgb(255, 90, 60, 20), 2)
-$g.DrawRectangle($crossPen, ($cx - 22), 260, 44, 240)
-$g.DrawRectangle($crossPen, ($cx - 80), ($crossCenterY - 22), 160, 44)
-
 # --- Bluttropfen rechts oben am Sarg (thematischer Akzent) ---
 $bloodBrush = New-Object System.Drawing.SolidBrush(
     [System.Drawing.Color]::FromArgb(255, 140, 10, 10))
@@ -128,12 +107,12 @@ $fmt.Alignment = [System.Drawing.StringAlignment]::Center
 # Schatten fuer den Titel
 $titleShadowBrush = New-Object System.Drawing.SolidBrush(
     [System.Drawing.Color]::FromArgb(200, 0, 0, 0))
-$g.DrawString("Auto-Todesschlaf", $titleFont, $titleShadowBrush,
+$g.DrawString("Auto-Deathrest", $titleFont, $titleShadowBrush,
     (New-Object System.Drawing.RectangleF(0, 22, $W, 50)), $fmt)
 
 $titleBrush = New-Object System.Drawing.SolidBrush(
     [System.Drawing.Color]::FromArgb(255, 230, 200, 150))
-$g.DrawString("Auto-Todesschlaf", $titleFont, $titleBrush,
+$g.DrawString("Auto-Deathrest", $titleFont, $titleBrush,
     (New-Object System.Drawing.RectangleF(0, 18, $W, 50)), $fmt)
 
 $subBrush = New-Object System.Drawing.SolidBrush(
