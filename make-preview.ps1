@@ -83,15 +83,87 @@ $innerInset = @(
 )
 $g.DrawPolygon($innerPen, $innerInset)
 
-# --- Bluttropfen rechts oben am Sarg (thematischer Akzent) ---
-$bloodBrush = New-Object System.Drawing.SolidBrush(
-    [System.Drawing.Color]::FromArgb(255, 140, 10, 10))
-$drop = New-Object System.Drawing.Drawing2D.GraphicsPath
-$drop.AddEllipse(($cx + 50), 210, 20, 26)
-$g.FillPath($bloodBrush, $drop)
-$drop2 = New-Object System.Drawing.Drawing2D.GraphicsPath
-$drop2.AddEllipse(($cx + 58), 244, 8, 12)
-$g.FillPath($bloodBrush, $drop2)
+# --- Sanguophagen-Emblem: zwei Reisszaehne mit fallendem Blutstropfen ---
+# Etwa halbe Sargbreite: ~120 px Gesamtbreite an der Basis (cx +/- 60).
+$emblemTopY = 240
+$fangHeight = 110
+
+$leftFang = @(
+    (New-Object System.Drawing.PointF(($cx - 60), $emblemTopY)),                # Basis aussen
+    (New-Object System.Drawing.PointF(($cx - 12), $emblemTopY)),                # Basis innen
+    (New-Object System.Drawing.PointF(($cx - 22), ($emblemTopY + $fangHeight))) # Spitze (leicht innen)
+)
+$rightFang = @(
+    (New-Object System.Drawing.PointF(($cx + 12), $emblemTopY)),
+    (New-Object System.Drawing.PointF(($cx + 60), $emblemTopY)),
+    (New-Object System.Drawing.PointF(($cx + 22), ($emblemTopY + $fangHeight)))
+)
+
+# Schatten unter den Reisszaehnen
+$shadowOffset = 5
+$fangShadowBrush = New-Object System.Drawing.SolidBrush(
+    [System.Drawing.Color]::FromArgb(150, 0, 0, 0))
+$leftShadow  = $leftFang  | ForEach-Object { New-Object System.Drawing.PointF(($_.X + $shadowOffset), ($_.Y + $shadowOffset)) }
+$rightShadow = $rightFang | ForEach-Object { New-Object System.Drawing.PointF(($_.X + $shadowOffset), ($_.Y + $shadowOffset)) }
+$g.FillPolygon($fangShadowBrush, $leftShadow)
+$g.FillPolygon($fangShadowBrush, $rightShadow)
+
+# Elfenbein-Verlauf fuer die Reisszaehne
+$fangRect = New-Object System.Drawing.RectangleF(($cx - 60), $emblemTopY, 120, $fangHeight)
+$fangBrush = New-Object System.Drawing.Drawing2D.LinearGradientBrush(
+    $fangRect,
+    [System.Drawing.Color]::FromArgb(255, 245, 235, 215),
+    [System.Drawing.Color]::FromArgb(255, 195, 175, 135),
+    [System.Drawing.Drawing2D.LinearGradientMode]::Vertical)
+$g.FillPolygon($fangBrush, $leftFang)
+$g.FillPolygon($fangBrush, $rightFang)
+
+# Dunkler Umriss
+$fangPen = New-Object System.Drawing.Pen(
+    [System.Drawing.Color]::FromArgb(255, 30, 18, 8), 2)
+$fangPen.LineJoin = [System.Drawing.Drawing2D.LineJoin]::Round
+$g.DrawPolygon($fangPen, $leftFang)
+$g.DrawPolygon($fangPen, $rightFang)
+
+# --- Blutstropfen unter den Reisszaehnen ---
+$dropTopY  = $emblemTopY + $fangHeight + 8
+$dropH     = 50
+$dropHalfW = 18
+
+function New-DropPath([double]$ox, [double]$oy) {
+    $p = New-Object System.Drawing.Drawing2D.GraphicsPath
+    $p.AddBezier(
+        (New-Object System.Drawing.PointF(($cx + $ox), ($dropTopY + $oy))),
+        (New-Object System.Drawing.PointF((($cx - $dropHalfW) + $ox), (($dropTopY + $dropH * 0.55) + $oy))),
+        (New-Object System.Drawing.PointF((($cx - $dropHalfW) + $ox), (($dropTopY + $dropH * 0.78) + $oy))),
+        (New-Object System.Drawing.PointF(($cx + $ox), (($dropTopY + $dropH) + $oy))))
+    $p.AddBezier(
+        (New-Object System.Drawing.PointF(($cx + $ox), (($dropTopY + $dropH) + $oy))),
+        (New-Object System.Drawing.PointF((($cx + $dropHalfW) + $ox), (($dropTopY + $dropH * 0.78) + $oy))),
+        (New-Object System.Drawing.PointF((($cx + $dropHalfW) + $ox), (($dropTopY + $dropH * 0.55) + $oy))),
+        (New-Object System.Drawing.PointF(($cx + $ox), ($dropTopY + $oy))))
+    $p.CloseFigure()
+    return $p
+}
+
+# Schatten
+$dropShadowPath = New-DropPath 4 4
+$dropShadowBrush = New-Object System.Drawing.SolidBrush(
+    [System.Drawing.Color]::FromArgb(140, 0, 0, 0))
+$g.FillPath($dropShadowBrush, $dropShadowPath)
+
+# Tropfen mit radialem Glanz
+$dropPath = New-DropPath 0 0
+$dropFillBrush = New-Object System.Drawing.Drawing2D.PathGradientBrush($dropPath)
+$dropFillBrush.CenterPoint = New-Object System.Drawing.PointF($cx, ($dropTopY + $dropH * 0.65))
+$dropFillBrush.CenterColor = [System.Drawing.Color]::FromArgb(255, 200, 30, 30)
+$dropFillBrush.SurroundColors = @([System.Drawing.Color]::FromArgb(255, 110, 8, 8))
+$g.FillPath($dropFillBrush, $dropPath)
+
+# Umriss
+$dropPen = New-Object System.Drawing.Pen(
+    [System.Drawing.Color]::FromArgb(220, 60, 0, 0), 1.5)
+$g.DrawPath($dropPen, $dropPath)
 
 # --- Titel unten ---
 $titleFont   = New-Object System.Drawing.Font("Trajan Pro", 34, [System.Drawing.FontStyle]::Bold)

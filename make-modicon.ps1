@@ -46,10 +46,33 @@ $edgePen = New-Object System.Drawing.Pen(
 $edgePen.LineJoin = [System.Drawing.Drawing2D.LineJoin]::Round
 $g.DrawPolygon($edgePen, $coffin)
 
-# Bluttropfen-Akzent
+# Sanguophage-Emblem: zwei Reisszaehne mit Blutstropfen, mittig auf dem Sarg
+$emblemTopY = 26
+$fangHeight = 10
+$leftFang = @(
+    (New-Object System.Drawing.PointF(($cx - 7), $emblemTopY)),
+    (New-Object System.Drawing.PointF(($cx - 1), $emblemTopY)),
+    (New-Object System.Drawing.PointF(($cx - 2.5), ($emblemTopY + $fangHeight)))
+)
+$rightFang = @(
+    (New-Object System.Drawing.PointF(($cx + 1), $emblemTopY)),
+    (New-Object System.Drawing.PointF(($cx + 7), $emblemTopY)),
+    (New-Object System.Drawing.PointF(($cx + 2.5), ($emblemTopY + $fangHeight)))
+)
+$fangBrush = New-Object System.Drawing.SolidBrush(
+    [System.Drawing.Color]::FromArgb(255, 235, 220, 195))
+$g.FillPolygon($fangBrush, $leftFang)
+$g.FillPolygon($fangBrush, $rightFang)
+$fangPen = New-Object System.Drawing.Pen(
+    [System.Drawing.Color]::FromArgb(255, 30, 18, 8), 0.8)
+$fangPen.LineJoin = [System.Drawing.Drawing2D.LineJoin]::Round
+$g.DrawPolygon($fangPen, $leftFang)
+$g.DrawPolygon($fangPen, $rightFang)
+
+# Blutstropfen unter den Reisszaehnen
 $bloodBrush = New-Object System.Drawing.SolidBrush(
-    [System.Drawing.Color]::FromArgb(255, 150, 14, 14))
-$g.FillEllipse($bloodBrush, ($cx + 6), 14, 3, 4)
+    [System.Drawing.Color]::FromArgb(255, 165, 14, 14))
+$g.FillEllipse($bloodBrush, ($cx - 2.5), 39, 5, 7)
 
 $bmp.Save($outPath, [System.Drawing.Imaging.ImageFormat]::Png)
 $g.Dispose()
