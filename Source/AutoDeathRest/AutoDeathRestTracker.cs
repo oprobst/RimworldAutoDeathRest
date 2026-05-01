@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using RimWorld;
 using Verse;
 using Verse.AI;
@@ -15,6 +16,14 @@ namespace AutoDeathRest
     public class AutoDeathRestTracker : GameComponent
     {
         private const int CheckIntervalTicks = 250;
+
+        // Per-pawn cooldown: if a queued job gets overridden (e.g. by a mental
+        // state JobGiver) the deathrest never actually starts and we'd retry
+        // every CheckIntervalTicks, spamming letters. Hold off for one in-game
+        // hour after each attempt — and drop the entry once the pawn is
+        // actually deathresting.
+        private const int RetryCooldownTicks = 2500;
+        private readonly Dictionary<int, int> _nextAttemptTick = new Dictionary<int, int>();
 
         public AutoDeathRestTracker(Game game) { }
 
@@ -35,7 +44,7 @@ namespace AutoDeathRest
             }
         }
 
-        private static void ProcessPawn(Pawn pawn, AutoDeathRestSettings settings)
+        private void ProcessPawn(Pawn pawn, AutoDeathRestSettings settings)
         {
             if (pawn?.genes == null || pawn.needs == null) return;
 
@@ -45,17 +54,22 @@ namespace AutoDeathRest
             var need = pawn.needs.TryGetNeed<Need_Deathrest>();
             if (need == null) return;
 
-            if (need.Deathresting) return;
+            if (need.Deathresting)
+            {
+                _nextAttemptTick.Remove(pawn.thingIDNumber);
+                return;
+            }
 
-            if (pawn.Drafted) return;
-            if (pawn.InMentalState && !pawn.MentalState.AllowRestingInBed) return;
-            if (pawn.Downed) return;
-            if (pawn.IsWildMan()) return;
-            if (pawn.roping != null && pawn.roping.IsRoped) return;
+            if (!CanStartAutoDeathrest(pawn)) return;
 
             var jobDef = DeathrestRefs.DeathrestJob;
             if (jobDef == null) return;
             if (pawn.CurJobDef == jobDef) return;
+
+            int now = Find.TickManager.TicksGame;
+            if (_nextAttemptTick.TryGetValue(pawn.thingIDNumber, out int nextAllowed)
+                && now < nextAllowed)
+                return;
 
             bool exhaustion = settings.TriggerOnExhaustion
                 && DeathrestRefs.DeathrestExhaustion != null
@@ -85,6 +99,11 @@ namespace AutoDeathRest
             job.forceSleep = true;
             if (!pawn.jobs.TryTakeOrderedJob(job, JobTag.Misc)) return;
 
+            // Even on a successful queue, the job may be overridden before it
+            // actually starts (mental break interrupts, draft, etc.). Don't
+            // retry — and don't fire another letter — until the cooldown elapses.
+            _nextAttemptTick[pawn.thingIDNumber] = now + RetryCooldownTicks;
+
             if (settings.ShowNotification)
             {
                 string title = "AutoDeathRest.LetterLabel".Translate(pawn.LabelShortCap);
@@ -95,6 +114,24 @@ namespace AutoDeathRest
                         (need.CurLevelPercentage * 100f).ToString("F0"));
                 Find.LetterStack.ReceiveLetter(title, body, LetterDefOf.NeutralEvent, new LookTargets(pawn));
             }
+        }
+
+        private static bool CanStartAutoDeathrest(Pawn pawn)
+        {
+            // Auto-deathrest is a multi-day commitment — bail on anything that
+            // would make the queued job get overridden or refused immediately.
+            // Without this guard, mental breaks etc. caused the tracker to
+            // re-trigger every CheckIntervalTicks and spam letters.
+            if (pawn.Drafted) return false;
+            if (pawn.InMentalState) return false;
+            if (pawn.Downed) return false;
+            if (pawn.IsBurning()) return false;
+            if (pawn.IsWildMan()) return false;
+            if (pawn.roping != null && pawn.roping.IsRoped) return false;
+            if (pawn.IsColonyMech) return false;
+            if (pawn.health?.capacities != null
+                && !pawn.health.capacities.CanBeAwake) return false;
+            return true;
         }
 
         private static Building_Bed FindBed(Pawn pawn, AutoDeathRestSettings settings)
